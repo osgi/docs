@@ -1,0 +1,14 @@
+-prune
+! -ipath \*/.\*
+! -ipath \*/css/\*
+! -ipath \*/js/\*
+! -ipath \*/images/\*
+! -ipath \*/META-INF/\*
+! -iname \*.css
+! -iname \*.js
+! -iname \*.png
+! -iname \*.svg
+! -iname \*.gif
+! -iname \*.gradle
+! -iname \*.jar
+! -iname \*.zip

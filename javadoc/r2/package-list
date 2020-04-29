@@ -1,0 +1,11 @@
+org.osgi.framework
+org.osgi.service.cm
+org.osgi.service.device
+org.osgi.service.http
+org.osgi.service.log
+org.osgi.service.metatype
+org.osgi.service.packageadmin
+org.osgi.service.permissionadmin
+org.osgi.service.prefs
+org.osgi.service.useradmin
+org.osgi.util.tracker

@@ -1,0 +1,5 @@
+# robots.txt for https://docs.osgi.org/
+
+User-agent: *
+
+Sitemap: https://docs.osgi.org/sitemap.xml
