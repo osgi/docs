@@ -1,0 +1,39 @@
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+markdown: kramdown
+
+theme: minima
+
+syntax_highlighter_opts:
+  disable: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+      author: OSGiAlliance
+      image: /img/osgi-logo-256.png
+
+title: OSGi Docs
+
+logo: /img/osgi-logo-256.png
+
+twitter:
+  username: OSGiAlliance
+
+google_tag_manager: GTM-W6DT68N
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'README.md'
+  - 'CONTRIBUTING.md'
+  - 'LICENSE'
+  - '/.github/'
+  - '.gitignore'
+  - '/build.sh'
+  - '/vendor'
