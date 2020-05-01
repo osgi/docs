@@ -56,7 +56,7 @@ layout: toc-page
 
 * [OSGi Compendium Release 4 Version 4.3 Javadoc](r4v43/cmpn/)
 
-## Residential R4 Version 4.3
+## Residential R4 V4.3
 
 * [OSGi Residential Release 4 Version 4.3 Javadoc](r4v43/residential/)
 
