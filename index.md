@@ -10,3 +10,5 @@ layout: toc-guide-page-front
 ## [OSGi Specifications](specification/)
 
 ## [OSGi Javadoc](javadoc/)
+
+## [OSGi Reference](reference/)
