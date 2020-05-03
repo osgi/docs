@@ -36,4 +36,5 @@ exclude:
   - '/.github/'
   - '.gitignore'
   - '/build.sh'
+  - '*/build.gradle'
   - '/vendor'
