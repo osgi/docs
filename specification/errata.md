@@ -532,7 +532,7 @@ The createRole method was specified in error and is deprecated. It does not func
 
 The syntax for a service/serviceList URL lookup allowed JNDI names to be mixed with filters. This caused confusion because JNDI names have no syntax. The URL scheme grammar is changed to only allow filters on fqns.
 
-```
+```bnf
 service ::= ’osgi:service/’ query
 query ::= jndi-name | fqn ( ’/’ filter )?
 jndi-name ::= <any string>
@@ -555,7 +555,7 @@ Therefore, when an Entity Manager Factory is being created using the Entity Mana
 
 ### 128.4.1
 
-Incorrectly says `ampersand (’?’)`. This is changed to `ampersand (’’)`.
+Incorrectly says `ampersand (’?’)`. This is changed to `ampersand (’&’)`.
 
 ### 128.4.1 and 128.4.2
 
@@ -593,7 +593,7 @@ The source of the `PACKAGE_REFRESHED`, `STARTED` and `STARTLEVEL_CHANGED`Framewo
 
 The following step was incorrectly added to the specification and has been removed.
 
-* A Configuration Event CM_UPDATED is send asynchronously out to all registered Configuration Listener services.
+~~A Configuration Event CM_UPDATED is send asynchronously out to all registered Configuration Listener services.~~
 
 ### 104.8
 
