@@ -156,4 +156,4 @@ Require-Capability: osgi.contract; filter:="(&(osgi.contract=JavaServlet)
 
 [Semantic Versioning Whitepaper][SemVer]
 
-[SemVer]: http://www.osgi.org/wp-content/uploads/Semantic-Versioning-20190110.pdf
+[SemVer]: /whitepaper/semantic-versioning/

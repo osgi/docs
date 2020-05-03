@@ -8,6 +8,8 @@ lnext: 010-executive-summary.html
 
 ![Image of OSGi Logo](semver.png)
 
+[(pdf)](../Semantic-Versioning-20190110.pdf)
+
 ## Contents
 
 [Executive Summary](010-executive-summary.html)
