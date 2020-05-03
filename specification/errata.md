@@ -6,15 +6,15 @@ layout: toc-page
 
 ![Image of OSGi Logo](/img/osgi-logo-512.png)
 
-## Core Release 7
+## Release 7
 
 ### 3.9.5
 
-The system bundle can export`java.*` packages in Release 7. The text is updated to remove the reference to the system bundle exporting non-`java.*` packages.
+The system bundle can export `java.*` packages in Release 7. The text is updated to remove the reference to the system bundle exporting non-`java.*` packages.
 
 ### 3.14
 
-Bullet 3 is changed to remove the sentence: "The`bundle-version` attributes and`bundle-symbolic-name` attributes will reflect the host bundle."
+Bullet 3 is changed to remove the sentence: "The `bundle-version` attributes and `bundle-symbolic-name` attributes will reflect the host bundle."
 
 ### 10.8.4
 
@@ -23,8 +23,6 @@ The text "If the meta-annotated annotation declares an element of the same name 
 ### 10.8.10
 
 The text "If the meta-annotated annotation declares an element of the same name as an element in this annotation, the element is considered to override the element in this annotation." is removed from the specification of the Requirement annotation.
-
-## Compendium Release 7
 
 ### 101.12.6
 
@@ -36,7 +34,7 @@ The version of the Meta Type Resource XML Schema is 1.4.0 and the namespace is `
 
 ### 150.3.1
 
-Table 150.1 is updated to correct the spelling of`:configurator:symbolic-name`. It incorrectly stated the spelling as`:configurator:symbolicname`.
+Table 150.1 is updated to correct the spelling of `:configurator:symbolic-name`. It incorrectly stated the spelling as `:configurator:symbolicname`.
 
 ### 151.4.1.1
 
@@ -46,23 +44,21 @@ The updated text requires that higher ranked services take precedence over lower
 
 ### 150.11
 
-The discussion of the osgi.identity capability is updated to correct the spelling of`:configurator:symbolic-name`. It incorrectly stated the spelling as`:configurator:symbolicname`.
+The discussion of the osgi.identity capability is updated to correct the spelling of `:configurator:symbolic-name`. It incorrectly stated the spelling as `:configurator:symbolicname`.
 
-## Core Release 6
+## Release 6
 
 ### 2.4.1
 
-Implied permissions for bundles must also include Capability Permission`REQUIRE` for the`osgi.native` capability.
+Implied permissions for bundles must also include Capability Permission `REQUIRE` for the `osgi.native` capability.
 
 ### 3.12
 
-The file`OSGI-INF/permissions.perm` was incorrectly spelled.
+The file `OSGI-INF/permissions.perm` was incorrectly spelled.
 
 ### 8.5
 
-This section is updated to state that a fragment's`osgi.identity` capability is not merged with the host bundle.
-
-## Compendium Release 6
+This section is updated to state that a fragment's `osgi.identity` capability is not merged with the host bundle.
 
 ### 112.8.2.2
 
@@ -70,21 +66,19 @@ Table 112.10 is updated. The boolean/Number entry is changed to "_v_.doubleValue
 
 ### 112.12.7.1
 
-`getService()` throws an IllegalStateException when the component instance that received the`ComponentServiceObjects` object has been deactivated. It incorrectly stated that an IllegalStateException is thrown when the associated service has become unbound.
+`getService()` throws an IllegalStateException when the component instance that received the `ComponentServiceObjects` object has been deactivated. It incorrectly stated that an IllegalStateException is thrown when the associated service has become unbound.
 
 ### 112.12.7.3
 
-`ungetService()` throws an IllegalStateException when the component instance that received the`ComponentServiceObjects` object has been deactivated. It incorrectly stated that an IllegalStateException is thrown when the associated service has become unbound.
-
-## Enterprise Release 6
+`ungetService()` throws an IllegalStateException when the component instance that received the `ComponentServiceObjects` object has been deactivated. It incorrectly stated that an IllegalStateException is thrown when the associated service has become unbound.
 
 ### 122.5.1
 
-In the returned collection of`ExportRegistration` objects, in addition to ignoring unrecognized configuration types, recognized configuration types which require intents that are not supported by the Remote Service Admin must also be ignored.
+In the returned collection of `ExportRegistration` objects, in addition to ignoring unrecognized configuration types, recognized configuration types which require intents that are not supported by the Remote Service Admin must also be ignored.
 
 ### 134.2.1.5
 
-The attribute name is corrected to`bundle-version`.
+The attribute name is corrected to `bundle-version`.
 
 ### 134.4
 
@@ -96,7 +90,7 @@ The root subsystem version is 1.1.
 
 ### 134.15.1.8
 
-The attribute name is corrected to`bundle-version`.
+The attribute name is corrected to `bundle-version`.
 
 ### 137.12.2.15
 
@@ -104,7 +98,7 @@ This method is removed.
 
 ### 137.12.2.16
 
-The`options` parameter is optional.
+The `options` parameter is optional.
 
 ### 137.12.2.17
 
@@ -112,21 +106,21 @@ This method is removed.
 
 ### 137.12.2.18
 
-The`options` parameter is optional.
+The `options` parameter is optional.
 
 ### 140.4
 
-When a failure occurs during`Servlet.init()`, the system treats the servlet as unusable and attempts to find an alternative servlet matching the request. The specification incorrectly stated that the system did not attempt to find an alternative servlet.
+When a failure occurs during `Servlet.init()`, the system treats the servlet as unusable and attempts to find an alternative servlet matching the request. The specification incorrectly stated that the system did not attempt to find an alternative servlet.
 
 ### 140.11.2
 
 If the Servlet API is provided by another bundle, the Http Whiteboard implementation _must_ be a consumer of the API and require the contract.
 
-## Core Release 5
+## Release 5
 
 ### 3.3.3
 
-The Provide-Capability header syntax is corrected to make clear that attribute type and List element type are optional. They both default to`String`.
+The Provide-Capability header syntax is corrected to make clear that attribute type and List element type are optional. They both default to `String`.
 
     typed-attr ::=  extended ( ':' type )? '=' argument
     list       ::= 'List' ( '<' scalar '>' )?
@@ -137,71 +131,59 @@ A contradiction is removed which incorrectly stated that ranking order is in asc
 
 Therefore, the ranking order is in _descending_ service.ranking numeric order where ties give a preference to the earlier registrant.
 
-### 9.2.1, 9.2.2 and 9.3.7
-
-The specification is corrected to allow the system bundle to be adapted to`BundleStartLevel`.
-
 ### 7.4
 
-This section is updated to state that the`osgi.identity` capability of a fragment is part of the fragment's Bundle Wiring and is not part of a host bundle's Bundle Wiring. That is, each Bundle Wiring has exactly one`osgi.identity` capability. However,`osgi.identity` requirements declared by a fragment are not part of the fragment's Bundle Wiring and are instead hosted by the host bundle's Bundle Wiring.
+This section is updated to state that the `osgi.identity` capability of a fragment is part of the fragment's Bundle Wiring and is not part of a host bundle's Bundle Wiring. That is, each Bundle Wiring has exactly one `osgi.identity` capability. However, `osgi.identity` requirements declared by a fragment are not part of the fragment's Bundle Wiring and are instead hosted by the host bundle's Bundle Wiring.
+
+### 9.2.1, 9.2.2 and 9.3.7
+
+The specification is corrected to allow the system bundle to be adapted to `BundleStartLevel`.
 
 ### 10.4.8.10
 
 The ordering of items in the returned list is updated to state that dynamically established wires are added to the end of the list in the order they are established.
 
-## Compendium Release 5
+### 102.2
+
+The URL example is missing the `?` before the query string. The correct URL is `http://www.acme.com/servlet?name=bugs`.
 
 ### 104.12.3.4
 
-The`getChangeCount` method is corrected to state that it must throw`IllegalStateException` if this configuration is deleted.
+The `getChangeCount` method is corrected to state that it must throw `IllegalStateException` if this configuration is deleted.
 
 ### 112.13.3.5
 
-The`enabled` element is incorrectly described as having the value`false` if unspecified. If unspecified, the value of`enabled` is`true`.
+The `enabled` element is incorrectly described as having the value `false` if unspecified. If unspecified, the value of `enabled` is `true`.
 
 ### 117.11.8
 
-The description of Figure 117.22 is corrected to state that the`SESSION_OPENED` event is published when the Dmt Session is opened. The remaining events are published when the Dmt Session is closed.
-
-### 134.18.6
-
-`SubsystemPermission` incorrectly refers to the`Subsystem.getHeaders` method for the`metadata` action. The proper name of the method is`getSubsystemHeaders`.
-
-## Enterprise Release 5
-
-### 102.2
-
-The URL example is missing the`?` before the query string. The correct URL is`http://www.acme.com/servlet?name=bugs`.
-
-### 104.13.3.4
-
-The`getChangeCount` method is corrected to state that it must throw`IllegalStateException` if this configuration is deleted.
-
-### 112.13.3.5
-
-The`enabled` element is incorrectly described as having the value`false` if unspecified. If unspecified, the value of`enabled` is`true`.
+The description of Figure 117.22 is corrected to state that the `SESSION_OPENED` event is published when the Dmt Session is opened. The remaining events are published when the Dmt Session is closed.
 
 ### 124.13.1.1
 
-The`AUTORIZATION_TYPE` field is incorrectly specified to consists of the`NAME_ITEM` and`TYPE_ITEM` items. The field consists of the`NAME_ITEM` and`ROLES_ITEM` items. (The name of this field is also incorrectly spelled which will be corrected in a future release.)
+The `AUTORIZATION_TYPE` field is incorrectly specified to consists of the `NAME_ITEM` and `TYPE_ITEM` items. The field consists of the `NAME_ITEM` and `ROLES_ITEM` items. (The name of this field is also incorrectly spelled which will be corrected in a future release.)
 
 ### 129.2.1
 
-The example incorrectly specifies the SCA XML namespace as`http://www.osoa.org/xmlns/sca/1.0`. The correct SCA XML namespace is`http://docs.oasis-open.org/ns/opencsa/sca/200912`.
+The example incorrectly specifies the SCA XML namespace as `http://www.osoa.org/xmlns/sca/1.0`. The correct SCA XML namespace is `http://docs.oasis-open.org/ns/opencsa/sca/200912`.
+
+### 134.18.6
+
+`SubsystemPermission` incorrectly refers to the `Subsystem.getHeaders` method for the `metadata` action. The proper name of the method is `getSubsystemHeaders`.
 
 ### 134.15.10
 
-The text incorrectly refers to the example importing a service when the example is meant to show exporting a service. In the example, the header name is incorrect and is corrected to be`Subsystem-ExportService`.
+The text incorrectly refers to the example importing a service when the example is meant to show exporting a service. In the example, the header name is incorrect and is corrected to be `Subsystem-ExportService`.
 
 ### 134.18.7
 
-`SubsystemPermission` incorrectly refers to the`Subsystem.getHeaders` method for the`metadata` action. The proper name of the method is`getSubsystemHeaders`.
+`SubsystemPermission` incorrectly refers to the `Subsystem.getHeaders` method for the `metadata` action. The proper name of the method is `getSubsystemHeaders`.
 
 ### 136
 
 The Resolver Service Specification is incorrectly numbered. Due to a production error, the Resolver Service Specification was numbered 131 which is already used by the _TR069 Connector Service Specification_. The correct number for the Resolver Service Specification is 136 which will be used in the next release of the specification document.
 
-## Core R4 V4.3
+## Release 4 Version 4.3
 
 ### 3.2.1.26
 
@@ -218,8 +200,6 @@ The ordering of items in the returned list is updated to state that dynamically 
 ### 56.3.2
 
 In step 4, the bundle class loader must throw a Class Format Error. There is no Class Format Exception.
-
-## Compendium R4 V4.3
 
 ### 102.2
 
@@ -295,52 +275,6 @@ The event topic name is incorrectly stated as `org/osgi/service/monitor`. The co
 
 The maximum length of the pid is incorrectly stated as 20. The maximum length is 32 as stated in 119.2.
 
-## Residential R4 V4.3
-
-### 2.7.1
-
-`FaultType` and `FaultMessage` are incorrectly listed as mandatory. They are optional and the correct cardinality is `0,1`.
-
-The type of `LastModified` is incorrectly listed as `dateTime`. It is corrected to `date_time`.
-
-### 2.7.2
-
-The type of the list elements of `Filter/ResultUriList` is corrected to be `string`. It was incorrectly listed as `node_uri`.
-
-### 2.7.3
-
-The type of `Time` is incorrectly listed as `dateTime`. It is corrected to `date_time`.
-
-### 2.8.2
-
-In table 2.4, the description of `Wires/[String]/[list]` incorrectly refers to a non-existent `osgi.wiring.service` namespace. The text is changed to refer to the `osgi.wiring.rmt.service` namespace.
-
-In table 2.4, the type of `LastModified` is incorrectly listed as `datetime`. It is corrected to `date_time`.
-
-### 2.8.5
-
-In the paragraph after the description of wild cards, it is incorrectly stated that the Target node is a virtual sub-tree. The description is corrected to state that the Result node is a virtual sub-tree.
-
-In table 2.7, the type of the list elements of `ResultUriList` is corrected to be `string`. It was incorrectly listed as `node_uri`.
-
-In table 2.7, the `Target` element description is corrected to state that it is an absolute URI and the `Result` element description is corrected to remove the reference to the `Target` element containing a relative URI. The `Result` element acts as a parent node instead of the session root for each node in `N`.
-
-### 2.8.6
-
-In table 2.8, the description of `StartLevel` incorrectly refers to Bundle Start Level. The correct referral is to Framework Start Level.
-
-### 2.8.8
-
-In table 2.10, the description of `Directive` is corrected to be "The Directives for this capability".
-
-### 2.9.2
-
-In table 2.13, the type of `Time` is incorrectly listed as `datetime`. It is corrected to `date_time`.
-
-### 3
-
-TR-157 Amendment 3 Software Module Guidelines specification is missing a specification version number. It is Version 1.0.
-
 ### 131.4.4
 
 The MIME type in the fourth paragraph is incorrectly stated as `application/x-tr-68-eager`. The correct MIME type is `application/x-tr-69-eager`.
@@ -357,7 +291,51 @@ If this is a table path, the method specifies whether or not AddObject would be 
 
 `TR069_BOOLEAN` is added as a valid argument for the `type` parameter.
 
-## Service Platform Core R4 V4.2
+### Residential 2.7.1
+
+`FaultType` and `FaultMessage` are incorrectly listed as mandatory. They are optional and the correct cardinality is `0,1`.
+
+The type of `LastModified` is incorrectly listed as `dateTime`. It is corrected to `date_time`.
+
+### Residential 2.7.2
+
+The type of the list elements of `Filter/ResultUriList` is corrected to be `string`. It was incorrectly listed as `node_uri`.
+
+### Residential 2.7.3
+
+The type of `Time` is incorrectly listed as `dateTime`. It is corrected to `date_time`.
+
+### Residential 2.8.2
+
+In table 2.4, the description of `Wires/[String]/[list]` incorrectly refers to a non-existent `osgi.wiring.service` namespace. The text is changed to refer to the `osgi.wiring.rmt.service` namespace.
+
+In table 2.4, the type of `LastModified` is incorrectly listed as `datetime`. It is corrected to `date_time`.
+
+### Residential 2.8.5
+
+In the paragraph after the description of wild cards, it is incorrectly stated that the Target node is a virtual sub-tree. The description is corrected to state that the Result node is a virtual sub-tree.
+
+In table 2.7, the type of the list elements of `ResultUriList` is corrected to be `string`. It was incorrectly listed as `node_uri`.
+
+In table 2.7, the `Target` element description is corrected to state that it is an absolute URI and the `Result` element description is corrected to remove the reference to the `Target` element containing a relative URI. The `Result` element acts as a parent node instead of the session root for each node in `N`.
+
+### Residential 2.8.6
+
+In table 2.8, the description of `StartLevel` incorrectly refers to Bundle Start Level. The correct referral is to Framework Start Level.
+
+### Residential 2.8.8
+
+In table 2.10, the description of `Directive` is corrected to be "The Directives for this capability".
+
+### Residential 2.9.2
+
+In table 2.13, the type of `Time` is incorrectly listed as `datetime`. It is corrected to `date_time`.
+
+### Residential 3
+
+TR-157 Amendment 3 Software Module Guidelines specification is missing a specification version number. It is Version 1.0.
+
+## Release 4 Version 4.2
 
 ### 4.4.2
 
@@ -370,8 +348,6 @@ In table 4.3, the description of the processor names ia64n and ia64w are reverse
 ### 8.2.3
 
 FrameworkEvent.STARTLEVEL_CHANGED is incorrectly spelled as START_LEVEL_CHANGED.
-
-## Service Platform Compendium R4 V4.2
 
 ### 102.2
 
@@ -393,17 +369,9 @@ A missing step is added after step 3: Process the localization files, see _Local
 
 The maximum length of the pid is incorrectly stated as 20. The maximum length is 32 as stated in 119.2.
 
-## Service Platform Enterprise R4 V4.2
-
-### 1.3
-
-Table 1.1 incorrectly refers to Auto Configuration Specification and Application Admin Specification which are not included in the Enterprise Specification.
-
 ### 121.2.6
 
 Two examples incorrectly use "value" attributes instead of "ref" attributes to refer to other beans.
-
-### 121.2.6
 
 The sentence "User code that causes a dynamic cycle by recursively calling the getComponentInstance method must be detected and cause a failure, these cycles cannot be broken." is deleted.
 
@@ -432,8 +400,6 @@ A service manager can get component instances for its service properties while i
 
 Note: A reference manager is unchanged. It must delay activation of its explicit dependencies until it is activated because activation in the tracking references phase would create components before the grace period. And a reference manager can currently have no implicit dependencies except for the listeners that are initialized when the reference manager is activated, so the general rule to activate explicit dependencies before activation should apply.
 
-### 121.6
-
 Cycles must be broken when a breaking manager can be found, where a breaking manager can be a singleton or a prototype bean. However, a prototype bean can never be a breaking manager because it must always return a new object. Breaking managers must therefore always be a singleton. This implies that self injection for a prototype bean cannot work because the cycle does not contain a singleton breaking manager.
 
 ### 121.6.6
@@ -457,8 +423,6 @@ In table 121.14, the type element row, indicates that it will return the collect
 The scope attribute of the Tinlined-bean type is changed to remove
 
 'fixed="prototype"'.
-
-### 121.15
 
 The definition of the Tscope type is changed to:
 
@@ -528,6 +492,10 @@ Incorrectly refers to the PROPERTIES item which does not exist.
 
 The createRole method was specified in error and is deprecated. It does not function and must not be used. Use either createUser or createGroup. Implementations of the createRole method will throw an exception.
 
+### 126.3.2
+
+This states "Service ranking order is achieved by sorting on ascending service.ranking service property and then descending service.id property." The intention was to then pick the last element but this was not clearly stated. The wording is changed to follow the Core Specification's definition in table 5.2. "If multiple qualifying service interfaces exist, a service with the highest SERVICE_RANKING number, or when equal to the lowest SERVICE_ID, determines which service object is returned by the Framework."
+
 ### 126.6
 
 The syntax for a service/serviceList URL lookup allowed JNDI names to be mixed with filters. This caused confusion because JNDI names have no syntax. The URL scheme grammar is changed to only allow filters on fqns.
@@ -539,10 +507,6 @@ jndi-name ::= <any string>
 
 servicelist ::= ’osgi:servicelist/’ query?
 ```
-
-### 126.3.2
-
-This states "Service ranking order is achieved by sorting on ascending service.ranking service property and then descending service.id property." The intention was to then pick the last element but this was not clearly stated. The wording is changed to follow the Core Specification's definition in table 5.2. "If multiple qualifying service interfaces exist, a service with the highest SERVICE_RANKING number, or when equal to the lowest SERVICE_ID, determines which service object is returned by the Framework."
 
 ### 127.5.4
 
@@ -569,7 +533,11 @@ Incorrectly says `WEB-INF/classes/`. This is changed to `WEB-INF/classes` (no tr
 
 The description of `collision.bundles` is corrected to: "`(Collection<Long>)` If a name collision occurred, a collection of bundle ids that all have the same value for the Web-ContextPath manifest header."
 
-## Service Platform Core R4 V4.1
+### Enterprise 1.3
+
+Table 1.1 incorrectly refers to Auto Configuration Specification and Application Admin Specification which are not included in the Enterprise Specification.
+
+## Release 4 Version 4.1
 
 ### 3.14.2
 
@@ -585,9 +553,7 @@ Steps 4 and 7 are updated to reflect lazy activation.
 
 ### 6.1.14.3-5
 
-The source of the `PACKAGE_REFRESHED`, `STARTED` and `STARTLEVEL_CHANGED`FrameworkEvent types is the System Bundle.
-
-## Service Platform Compendium R4 V4.1
+The source of the `PACKAGE_REFRESHED`, `STARTED` and `STARTLEVEL_CHANGED` FrameworkEvent types is the System Bundle.
 
 ### 104.5.3
 
@@ -615,9 +581,9 @@ The code example has some minor bugs in it. `EventConstants.EVENT_TOPIC` should 
 
 The Measurement compendium specification talks about a String constructor for the Measurement class. This constructor does not exist.
 
-## Service Platform Core R4 V4.0
+## Release 4 Version 4.0
 
-_The following errata from the original version of the R4 Core specification have been corrected in the Version 4.0.1 document._
+_The following errata from the original version of the R4 Core and Compendium specifications have been corrected in the Version 4.0.1 documents._
 
 ### 1.2
 
@@ -655,10 +621,6 @@ In the example code, the fields EMPTY_CS and EMPTY_PS should be arrays
 ConditionInfo[] EMPTY_CS = new ConditionInfo[0];
 PermissionInfo[] EMPTY_PS = new PermissionInfo[0];
 ```
-
-## Service Platform Compendium R4 V4.0
-
-_The following errata from the original version of the R4 Compendium specification have been corrected in the Version 4.0.1 document._
 
 ### 104.4.2
 
