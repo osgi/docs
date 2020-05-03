@@ -12,3 +12,5 @@ layout: toc-guide-page-front
 ## [OSGi Javadoc](javadoc/)
 
 ## [OSGi Reference](reference/)
+
+## [OSGi Whitepapers](whitepaper/)
