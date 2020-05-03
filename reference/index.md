@@ -13,5 +13,5 @@ layout: toc-page
 * [Bundle-Category constants](bundle-categories.html)
 * [Bundle Headers Registry](bundle-headers.html)
 * [Capability Namespace Registry](capability-namespaces.html)
-* [Portable Java Contract Definitions](java-contracts.html)
-* [Service Property Namespace](service-properties.html)
+* [Portable Java Contract Definitions](portable-java-contracts.html)
+* [Service Property Namespace](service-property-namespace.html)
