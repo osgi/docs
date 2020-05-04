@@ -33,8 +33,6 @@ exclude:
   - 'README.md'
   - 'CONTRIBUTING.md'
   - 'LICENSE'
-  - '/.github/'
-  - '.gitignore'
   - '/build.sh'
   - '*/build.gradle'
   - '/vendor'
