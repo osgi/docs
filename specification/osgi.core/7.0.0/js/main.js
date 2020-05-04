@@ -54,8 +54,12 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 window.addEventListener('popstate', function(event) {
-    var el = document.getElementById(window.location.hash.substring(1));
-    if (el) {
-        el.scrollIntoView();
-    }
-}, false);
+	var id = "scrollable";
+	if (window.location.hash) {
+		id = window.location.hash.substring(1);
+	}
+	var el = document.getElementById(id);
+	if (el) {
+		el.scrollIntoView();
+	}
+}, false); 
