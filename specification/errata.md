@@ -36,15 +36,15 @@ The version of the Meta Type Resource XML Schema is 1.4.0 and the namespace is `
 
 Table 150.1 is updated to correct the spelling of `:configurator:symbolic-name`. It incorrectly stated the spelling as `:configurator:symbolicname`.
 
+### 150.11
+
+The discussion of the osgi.identity capability is updated to correct the spelling of `:configurator:symbolic-name`. It incorrectly stated the spelling as `:configurator:symbolicname`.
+
 ### 151.4.1.1
 
 The discussion of clashing resource mappings is updated to clarify the expected behaviour when multiple whiteboard resources provide resource methods which map to the same URI. The previous text failed to define how the ranking of these services would interact with the existing JAX-RS resource selection algorithm.
 
 The updated text requires that higher ranked services take precedence over lower ranked services, but that equally ranked services fall back to the default JAX-RS resource method selection algorithm. It remains the case that static resources in a whiteboard application behave as if they have a ranking less than that of all whiteboard services.
-
-### 150.11
-
-The discussion of the osgi.identity capability is updated to correct the spelling of `:configurator:symbolic-name`. It incorrectly stated the spelling as `:configurator:symbolicname`.
 
 ## Release 6
 
