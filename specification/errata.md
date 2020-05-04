@@ -688,3 +688,87 @@ The constant name EXCEPTION_CLASS was released with an incorrect spelling. This 
 ### 999.4.3
 
 The getLocalizedMessage method is incorrectly listed under java.lang.Thread. It should be listed under java.lang.Throwable.
+
+## Release 3
+
+### 1.4.1
+
+The definition of token must include the ‘-‘ character
+
+### 4.5.1
+
+The Bundle-RequiredExecutionEnvironment and org.osgi.framework.executionenvironment property did not list their expected usage. Both should contain a list of all applicable execution environments.
+
+### 4.5.1
+
+The J2ME property microedition.profiles was written as microedition.profile (missing s). According to the J2ME specification this must be with an s.
+
+### 4.19 and 6.2.7
+
+Exceptions thrown by the `BundleActivator` must always be wrapped in a `BundleException` before they are emitted as a `FrameworkEvent` or thrown to the caller. This was not clearly specified in the given sections.
+
+### 4.23.5.14
+
+Step 7 in the installBundle() is meaningless because resolving may happen much later. In the next release, step 7 will be removed.
+
+### 4.6.1
+
+Native code loading indicates that a failed install should send out a Framework event. This is not true, a Framework event must only be send if no Exception can be thrown
+
+### 8.3.1
+
+When no handlers are registered the proxies must handle the request. The specification treated this case equally for both content and stream handlers. This is incorrect.URL Stream Handler proxies should throw an Exception. Content Handler proxies should return an InputStream to the data.
+
+### 10.4.2
+
+It is not clear that null is allowed in arrays and vectors, though it is clear from the javadoc in 10.14.2. These two sections need to be synchronized.
+
+### 10.15.10.16
+
+The property WIREVALUE_DELTA_RELATIVE is not defined to be absolute. It is decided that the relative value should always be positive because this is in aligmenet with the intended application to trigger on a change greater than a certain value.
+
+### 15.5
+
+The examples that show how to get a SAXParserFactory or a DocumentBuilderFactory are wrong. The service registry contains a factory object. Therefore, the factory should be used to create a SAXParser or a DocumentBuilder respectively which can then be returned.
+
+### 21
+
+The Position class must keep the longitude between [-180 and 180> and the latitude between [-90 and 90].
+
+### 22.3
+
+The listed execution environment is not a valid representation of the JAR files. After print, it was found that overloaded methods that were only present in the foundation EE were also shown in the minimum EE.
+
+### 22
+
+Interfaces that are extending other interfaces are printed as that it “implements” these other interfaces. This should be “extends” instead.
+
+### 26.2
+
+The Initial Provisioning spec does not define what happens when chained zip files use the same name for bundles. A compliant implementation must use update to install these new bundles.
+
+### 26.4
+
+This section in Initial Provisioning seems to allow changes to the dictionary. This is not true, an implementation must throw an `UnsupportedOperationException` when the dictionary is modified.
+
+## Release 2
+
+### 7.2
+
+In the example code, the call req.getPrintWriter should be req.getWriter() and HttpService should be getHttpService().
+
+### 7.6
+
+The table lists .html twice, the first .html should be replaced with .htm.
+
+### 8.7.4
+
+The text before the bullets should not give the impressions that the bullets are optional. The bullets are issues that an optimization may **rely** on, not that these bullets are the optimizations themselves.
+
+### 9.4.4
+
+The `service.bundleLocation` property must not be accessible from the Configuration properties Dictionary returned by `Configuration.getProperties` or passed to `ManagedService.updated`, `ManagedServiceFactory.updated` or `ConfigurationPlugin.modifyConfiguration`. The value of the `service.bundleLocation` property may only be obtained from the `Configuration.getBundleLocation` method.
+
+### 9.7.1
+
+The sentence “The first argument is the location identifier and the second is the PID of the targeted ManagedService object”. First and second should be reversed. The PID is the **first** parameter and the location is the **second** parameter.

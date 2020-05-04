@@ -63,10 +63,12 @@ layout: toc-page
 ## Release 3
 
 * [OSGi Service Platform Release 3 Specification](/download/r3/r3.book.pdf)
+* [OSGi Service Platform Release 3 Errata](errata.html#release-3)
 
 ## Release 2
 
 * [OSGi Service Platform Release 2 Specification](/download/r2/sp-r2.book.pdf)
+* [OSGi Service Platform Release 2 Errata](errata.html#release-2)
 
 ## Release 1
 
