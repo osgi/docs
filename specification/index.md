@@ -6,6 +6,11 @@ layout: toc-page
 
 ![Image of OSGi Logo](/img/osgi-logo-512.png)
 
+## Release 8
+
+* [OSGi Core Release 8 Proposed Final Draft Specification](osgi.core/8.0.0/) [(pdf)](/download/r8/osgi.core-8.0.0.pdf)
+* [OSGi Compendium Release 7 Draft Specification](osgi.cmpn/8.0.0/) [(pdf)](/download/r8/osgi.cmpn-8.0.0.pdf)
+
 ## Release 7
 
 * [OSGi Core Release 7 Specification](osgi.core/7.0.0/) [(pdf)](/download/r7/osgi.core-7.0.0.pdf)
