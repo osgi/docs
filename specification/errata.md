@@ -46,6 +46,26 @@ The discussion of clashing resource mappings is updated to clarify the expected 
 
 The updated text requires that higher ranked services take precedence over lower ranked services, but that equally ranked services fall back to the default JAX-RS resource method selection algorithm. It remains the case that static resources in a whiteboard application behave as if they have a ranking less than that of all whiteboard services.
 
+### 151.4.2.3
+
+The JAX-RS 2.1 specification extended support for asynchronous responses by returning CompletionStage from a resource method. The JAX-RS Whiteboard Specification failed to describe this option, or the ability to use an OSGi Promise as an alternative to a CompletionStage. These asynchronous return types are supported.
+
+The following example demonstrates the use of an asynchronous return value:
+
+```java
+@Component(service = MyResource.class,
+      scope = ServiceScope.PROTOTYPE)
+ @JaxrsResource
+ public class MyResource {
+    @Path(“foo”)
+    @GET
+    public Promise<String> getFoo() {
+        Promise<String> p = doLongRunningTaskAsynchronously();
+        return p;
+    }
+}
+```
+
 ## Release 6
 
 ### 2.4.1
