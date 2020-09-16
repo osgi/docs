@@ -78,3 +78,7 @@ layout: toc-page
 ## Release 1
 
 * [OSGi Service Gateway Release 1 Specification](/download/r1/r1.osgi-spec.pdf)
+
+## Intellectual Property Rights Policy
+
+* [OSGi Alliance Intellectual Property Rights Policy](/download/OSGiAllianceIntellectualPropertyRightsPolicy.pdf)
