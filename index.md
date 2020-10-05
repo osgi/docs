@@ -16,3 +16,5 @@ layout: toc-guide-page-front
 ## [OSGi Whitepapers](whitepaper/)
 
 ## [OSGi XML Schemas](xmlns/)
+
+## [OSGi API Artifacts](artifacts/)
