@@ -1,20 +1,23 @@
 ---
 title: OSGi API Artifacts
 summary: OSGi™ API Artifacts
-layout: full-width-page
+layout: toc-page
 ---
 
 ![Image of OSGi Logo](/img/osgi-logo-512.png)
 
-# Overview
+## Overview
 
-All artifacts from OSGi are available on Maven Central with group id [`org.osgi`](https://search.maven.org/search?q=g:org.osgi).
+All OSGi API artifacts are available on Maven Central with groupId [`org.osgi`](https://search.maven.org/search?q=g:org.osgi).
 
-# Individual Artifacts
+## Individual Artifacts
 
-There are artifacts available for each chapter in the specification, where the the primary package name is used as the artifact id (starting with `org.osgi.`). The version is always equal to the version of the specification chapter.
-In addition there may be dedicated build time artifacts provided (e.g. for annotations), so one chapter might have more than one artifact.
+There are artifacts available for each chapter in the specification which has an API. The artifactId is the primary package name used in the specification. The major and minor version of the artifact is equal to the version of the specification chapter.
 
-# Aggregate Artifacts
+## Aggregate Artifacts
 
-In addition to individual artifacts some aggregate artifacts are provided which encapsulate multiple specification chapters. They have an artifact id starting with `osgi.`. It is recommended to use the individual artifacts though, as this allows a more granular versioning.
+In addition to individual artifacts, some aggregate artifacts are provided which encapsulate multiple related specifications. They have artifactIds starting with `osgi.`.
+
+There are dedicated build time artifacts which are not intended for use at runtime. These should be used with maven scope `provided`. For example, [`osgi.annotation`](https://search.maven.org/search?q=g:org.osgi%20and%20a:osgi.annotation) and [`osgi.core`](https://search.maven.org/search?q=g:org.osgi%20and%20a:osgi.core).
+
+Other than the dedicated build time artifacts, it is generally recommended to use the individual artifacts, as this allows for more precise versioning. In particular, avoid using the `osgi.cmpn` artifact.
