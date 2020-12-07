@@ -6,6 +6,11 @@ layout: toc-page
 
 ![Image of OSGi Logo](/img/osgi-logo-512.png)
 
+## Release 8
+
+* [OSGi Annotation Release 8 Javadoc](osgi.annotation/8.0.0/)
+* [OSGi Core Release 8 Javadoc](osgi.core/8.0.0/)
+
 ## Release 7
 
 * [OSGi Annotation Release 7 Javadoc](osgi.annotation/7.0.0/)
