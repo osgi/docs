@@ -13,6 +13,7 @@ This section contains the recommended values for the processor and operating sys
 Processor | Aliases | Description
 ----------|---------|------------
 68k | | Motorola 68000
+AArch64 | ARM64 | 64-bit extension of the ARM architecture
 ARM | | Intel Strong ARM (deprecated because the endianness is not specified)
 ARM_be | | Intel Strong ARM Big Endian
 ARM_le | | Intel Strong ARM Little Endian
