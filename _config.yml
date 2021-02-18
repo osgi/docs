@@ -23,7 +23,7 @@ title: OSGi Docs
 logo: /img/OSGi_WG.png
 
 twitter:
-  username: OSGiAlliance
+  username: OSGiWG
 
 exclude:
   - 'Gemfile'
