@@ -15,12 +15,12 @@ defaults:
       path: ""
     values:
       layout: default
-      author: OSGiAlliance
-      image: /img/osgi-logo-256.png
+      author: OSGiWG
+      image: /img/OSGi_WG.png
 
 title: OSGi Docs
 
-logo: /img/osgi-logo-256.png
+logo: /img/OSGi_WG.png
 
 twitter:
   username: OSGiAlliance

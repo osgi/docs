@@ -4,7 +4,7 @@ summary: OSGi™ Whitepapers
 layout: toc-page
 ---
 
-![Image of OSGi Logo](/img/osgi-logo-512.png)
+![Image of OSGi Logo](/img/OSGi_WG.png)
 
 ## Whitepapers
 

@@ -8,6 +8,6 @@ layout: toc-page
 
 Name | Description | Organization
 -----|-------------|------------
-osgi | General OSGi properties defined in the Core specification | OSGi Alliance
-org.osgi | Reserved general OSGi properties | OSGi Alliance
-service | OSGi service related properties, defined in the Core specification | OSGi Alliance
+osgi | General OSGi properties defined in the Core specification | OSGi Working Group
+org.osgi | Reserved general OSGi properties | OSGi Working Group
+service | OSGi service related properties, defined in the Core specification | OSGi Working Group

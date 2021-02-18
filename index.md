@@ -5,7 +5,7 @@ description: OSGi Specifications and Documentation
 layout: toc-guide-page-front
 ---
 
-![Image of OSGi Logo](/img/osgi-logo-2000.png)
+![Image of OSGi Logo](/img/OSGi_WG.png)
 
 ## [OSGi Specifications](specification/)
 
