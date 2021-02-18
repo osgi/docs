@@ -6,7 +6,7 @@ lprev: 080-conclusion.html
 lnext: 010-executive-summary.html
 ---
 
-![Image of OSGi Logo](semver.png)
+![Semantic Versioning](semver.png)
 
 [(pdf)](Semantic-Versioning-20190110.pdf)
 

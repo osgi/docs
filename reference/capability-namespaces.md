@@ -8,13 +8,13 @@ layout: toc-page
 
 Namespace | Description | Organization
 ----------|-------------|------------
-osgi.ee | Execution Environment | OSGi Alliance
-osgi.wiring.package | Package wiring | OSGi Alliance
-osgi.wiring.bundle | Bundle wiring | OSGi Alliance
-osgi.wiring.host | Host/fragment wiring | OSGi Alliance
-osgi.identity | Bundle identity | OSGi Alliance
-osgi.extender | Extender | OSGi Alliance
-osgi.contract | API Contract | OSGi Alliance
-osgi.service | Service | OSGi Alliance
-osgi.serviceloader | ServiceLoader | OSGi Alliance
-osgi.content | Resource Content | OSGi Alliance
+osgi.ee | Execution Environment | OSGi Working Group
+osgi.wiring.package | Package wiring | OSGi Working Group
+osgi.wiring.bundle | Bundle wiring | OSGi Working Group
+osgi.wiring.host | Host/fragment wiring | OSGi Working Group
+osgi.identity | Bundle identity | OSGi Working Group
+osgi.extender | Extender | OSGi Working Group
+osgi.contract | API Contract | OSGi Working Group
+osgi.service | Service | OSGi Working Group
+osgi.serviceloader | ServiceLoader | OSGi Working Group
+osgi.content | Resource Content | OSGi Working Group
