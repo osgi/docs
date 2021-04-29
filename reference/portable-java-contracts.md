@@ -24,14 +24,19 @@ Contract | Version | JSR | Java SE Level | Java EE Level | Packages | Comments
 -|-|-|-|-|-|-
 JavaActivation | 1.1 | 925 | 6/7 | | javax.activation |
 JavaActivation | 1.1.1 | 925 | 6 (Update 10 or later)/7 | | javax.activation | Compatible with 1.1
+JavaActivation | 1.2 | 925 | | 8 | javax.activation | Compatible with 1.1
 JavaAnnotation | 1 | 250 | | | javax.annotation, javax.annotation.security |
 JavaAnnotation | 1.1 | 250 | | 6 | javax.annotation, javax.annotation.security, javax.annotation.sql | Compatible with 1
 JavaAnnotation | 1.2 | 250 | | 7 | javax.annotation, javax.annotation.security, javax.annotation.sql | Compatible with 1 & 1.1. Subset available in SE 8
+JavaAnnotation | 1.3 | 250 | | 8 | javax.annotation, javax.annotation.security, javax.annotation.sql | Compatible with 1, 1.1, and 1.2. Subset available in SE 8
 JavaBatch | 1 | 352 | | 7 | javax.batch.api, javax.batch.api.chunk, javax.batch.api.chunk.listener, javax.batch.api.listener, javax.batch.api.partition, javax.batch.operations, javax.batch.runtime, javax.batch.runtime.context |
 JavaBeanValidation | 1 | 303 | | 6 | javax.validation, javax.validation.bootstrap, javax.validation.constraints, javax.validation.groups, javax.validation.metadata, javax.validation.spi |
 JavaBeanValidation | 1.1 | 349 | | 7 | javax.validation, javax.validation.bootstrap, javax.validation.constraints, javax.validation.constraintvalidation, javax.validation.executable, javax.validation.groups, javax.validation.metadata, javax.validation.spi | Compatible with 1
+JavaBeanValidation | 2.0 | 380 | | 8 | javax.validation, javax.validation.bootstrap, javax.validation.constraints, javax.validation.constraintvalidation, javax.validation.executable, javax.validation.groups, javax.validation.metadata, javax.validation.spi, javax.validation.valueextraction |
 JavaCDI | 1 | 299 | | 6 | javax.decorator, javax.enterprise.context, javax.enterprise.context.spi, javax.enterprise.event, javax.enterprise.inject, javax.enterprise.inject.spi, javax.enterprise.util |
 JavaCDI | 1.1 | 346 | | 7 | javax.decorator, javax.enterprise.context, javax.enterprise.context.spi, javax.enterprise.event, javax.enterprise.inject, javax.enterprise.inject.spi, javax.enterprise.util | Compatible with 1
+JavaCDI | 1.2 | 346 | | 7 | javax.decorator, javax.enterprise.context, javax.enterprise.context.spi, javax.enterprise.event, javax.enterprise.inject, javax.enterprise.inject.spi, javax.enterprise.util | Compatible with 1.1
+JavaCDI | 2.0 | 365 | | 8 | javax.decorator, javax.enterprise.context, javax.enterprise.context.control, javax.enterprise.context.spi, javax.enterprise.event, javax.enterprise.inject, javax.enterprise.inject.literal, javax.enterprise.inject.se, javax.enterprise.inject.spi, javax.enterprise.inject.spi.configurator, javax.enterprise.util | Compatible with 1.2
 JavaEJB | 2.1 | 153 | | | javax.ejb, javax.ejb.spi |
 JavaEJB | 3 | 220 | | | javax.ejb, javax.ejb.spi | Compatible with 2.1
 JavaEJB | 3.1 | 318 | | 6 | javax.ejb, javax.ejb.embeddable, javax.ejb.spi | Compatible with 2.1, 3
@@ -39,6 +44,7 @@ JavaEJB | 3.2 | 345 | | 7 | javax.ejb, javax.ejb.embeddable, javax.ejb.spi | Com
 JavaEJBLite | 3.1 | 318 | | 6 | javax.ejb, javax.ejb.embeddable, javax.ejb.spi | EJBlite is a subset of the EJB specification. The package content is logically subset. A provider of JavaEJB is required to also provide this contract. A provider of JavaEJBLite is not required to provide JavaEJB.
 JavaEJBLite | 3.2 | 345 | | 7 | javax.ejb | EJBlite is a subset of the EJB specification. The package content is logically subset. A provider of JavaEJB is required to also provide this contract. A provider of JavaEJBLite is not required to provide JavaEJB. This contract is not backwards compatible with 3.1 because of the removal of javax.ejb.embeddable.
 JavaEnterpriseConcurrency | 1 | 236 | | 7 | javax.enterprise.concurrent |
+JavaEnterpriseConcurrency | 1.1 | 236 | | 8 | javax.enterprise.concurrent | Compatible with 1
 JavaEL | 2.1 | 245 | | | javax.el |
 JavaEL | 2.2 | 245 | | 6 | javax.el | Compatible with 2.1
 JavaEL | 3 | 341 | | 7 | javax.el | Compatible with 2.2
@@ -65,9 +71,12 @@ JavaJMS | 2 | 343 | | 7 | javax.jms | Compatible with 1.1
 JavaJPA | 1 | 220 | | | javax.persistence, javax.persistence.spi |
 JavaJPA | 2 | 317 | | 6 | javax.persistence, javax.persistence.criteria, javax.persistence.metamodel, javax.persistence.spi | Compatible with 1
 JavaJPA | 2.1 | 338 | | 7 | javax.persistence, javax.persistence.criteria, javax.persistence.metamodel, javax.persistence.spi | Compatible with 1, 2
+JavaJPA | 2.2 | 338 | | 8 | javax.persistence, javax.persistence.criteria, javax.persistence.metamodel, javax.persistence.spi | Compatible with 1, 2.1
 JavaJSF | 2 | 314 | | 6 | javax.faces, javax.faces.application, javax.faces.bean, javax.faces.component, javax.faces.component.behavior, javax.faces.component.html, javax.faces.component.visit, javax.faces.context, javax.faces.convert, javax.faces.el, javax.faces.event, javax.faces.lifecycle, javax.faces.model, javax.faces.render, javax.faces.validator, javax.faces.view, javax.faces.view.facelets, javax.faces.webapp |
 JavaJSF | 2.2 | 314 | | 7 | javax.faces, javax.faces.application, javax.faces.bean, javax.faces.component, javax.faces.component.behavior, javax.faces.component.html, javax.faces.component.visit, javax.faces.context, javax.faces.convert, javax.faces.el, javax.faces.event, javax.faces.flow, javax.faces.flow.builder, javax.faces.lifecycle, javax.faces.model, javax.faces.render, javax.faces.validator, javax.faces.view, javax.faces.view.facelets, javax.faces.webapp | Compatible with 2.0
+JavaJSF | 2.3 | 372 | | 8 | javax.faces, javax.faces.annotation, javax.faces.application, javax.faces.bean, javax.faces.component, javax.faces.component.behavior, javax.faces.component.html, javax.faces.component.search, javax.faces.component.visit, javax.faces.context, javax.faces.convert, javax.faces.el, javax.faces.event, javax.faces.flow, javax.faces.flow.builder, javax.faces.lifecycle, javax.faces.model, javax.faces.push, javax.faces.render, javax.faces.validator, javax.faces.view, javax.faces.view.facelets, javax.faces.webapp | Compatible with 2.2
 JavaJSONP | 1 | 353 | | 7 | javax.json, javax.json.spi, javax.json.stream |
+JavaJSONP | 1.1 | 374 | | 8 | javax.json, javax.json.spi, javax.json.stream | Compatible with 1
 JavaJSP | 2 | 152 | | | javax.servlet.jsp, javax.servlet.jsp.el, javax.servlet.jsp.tagext |
 JavaJSP | 2.1 | 245 | | | javax.servlet.jsp, javax.servlet.jsp.el, javax.servlet.jsp.tagext | Compatible with 2
 JavaJSP | 2.2 | 245 | | 6 | javax.servlet.jsp, javax.servlet.jsp.el, javax.servlet.jsp.tagext | Compatible with 2, 2.1. I removed javax.servlet.jsp.resources ???
@@ -77,15 +86,19 @@ JavaJSTL | 1.1 | 52 | | | javax.servlet.jsp.jstl.core, javax.servlet.jsp.jstl.fm
 JavaJSTL | 1.2 | 52 | | 6/7 | javax.servlet.jsp.jstl.core, javax.servlet.jsp.jstl.fmt, javax.servlet.jsp.jstl.sql, javax.servlet.jsp.jstl.tlv | Compatible with 1.1
 JavaJTA | 1.1 | 907 | | 6 | javax.transaction, javax.transaction.xa |
 JavaJTA | 1.2 | 907 | | 7 | javax.transaction, javax.transaction.xa | Compatible with 1.1
+JavaJTA | 1.3 | 907 | | 7 | javax.transaction | javax.transaction.xa is now owned by Java SE
 JavaJTAJRE | 1.1 | 907 | 6/7/8 | | javax.transaction, javax.transaction.xa | This contains a subset of the package javax.transaction. It only contains 3 exceptions. A provider of JavaJTA must also provide this contract. The OSGi system bundle must provide this contract. The creation of JTA 1.2 has so far not affected the SE subset and so there is currently no 1.2 version of this contract.
 JavaMail | 1.4 | 919 | | 6 | javax.mail, javax.mail.event, javax.mail.internet, javax.mail.search, javax.mail.util |
 JavaMail | 1.5 | 919 | | 7 | javax.mail, javax.mail.event, javax.mail.internet, javax.mail.search, javax.mail.util | Compatible with 1.4
+JavaMail | 1.6 | 919 | | 8 | javax.mail, javax.mail.event, javax.mail.internet, javax.mail.search, javax.mail.util | Compatible with 1.5
 JavaServlet | 2.5 | 154 | | | javax.servlet, javax.servlet.http |
 JavaServlet | 3 | 315 | | 6 | javax.servlet, javax.servlet.annotation, javax.servlet.descriptor, javax.servlet.http | Compatible with 2.5
 JavaServlet | 3.1 | 340 | | 7 | javax.servlet, javax.servlet.annotation, javax.servlet.descriptor, javax.servlet.http | Compatible with 2.5, 3
+JavaServlet | 4.0 | 369 | | 8 | javax.servlet, javax.servlet.annotation, javax.servlet.descriptor, javax.servlet.http | Compatible with 2.5, 3.1
 JavaWebServicesMetadata | 2.0 | 181 | 6/7/8 | | javax.jws, javax.jws.soap |
 JavaWebServicesMetadata | 2.1 | 181 | | 6/7 | javax.jws, javax.jws.soap |
 JavaWebSockets | 1 | 356 | | 7 | javax.websocket, javax.websocket.server
+JavaWebSockets | 1.1 | 356 | | 8 | javax.websocket, javax.websocket.server
 
 ### Examples
 

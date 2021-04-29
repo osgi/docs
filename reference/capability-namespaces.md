@@ -18,3 +18,4 @@ osgi.contract | API Contract | OSGi Working Group
 osgi.service | Service | OSGi Working Group
 osgi.serviceloader | ServiceLoader | OSGi Working Group
 osgi.content | Resource Content | OSGi Working Group
+org.junit.platform.engine | Platform Engine id | JUnit Team
