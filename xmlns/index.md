@@ -12,10 +12,10 @@ The XML schema files are made available under the [Apache License, Version 2.0](
 
 ### Declarative Services
 
-The Declarative Services [schema](scr/v1.4.0/scr.xsd) is in the XML namespace
+The Declarative Services [schema](scr/v1.5.0/scr.xsd) is in the XML namespace
 
 ```
-http://www.osgi.org/xmlns/scr/v1.4.0
+http://www.osgi.org/xmlns/scr/v1.5.0
 ```
 
 This XML Schema for component descriptions is used by the Service Component Runtime (SCR). Component description documents may be embedded in other XML documents. The SCR will process all XML documents listed in the Service-Component manifest header of a bundle. XML documents containing component descriptions may contain a single, root component element or one or more component elements embedded in a larger document. Use of the namespace is mandatory.
