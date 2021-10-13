@@ -18,6 +18,8 @@ There are artifacts available for each chapter in the specification which has an
 
 In addition to individual artifacts, some aggregate artifacts are provided which encapsulate multiple related specifications. They have artifactIds starting with `osgi.`.
 
-There are dedicated build time artifacts which are not intended for use at runtime. These should be used with maven scope `provided`. For example, [`osgi.annotation`](https://search.maven.org/search?q=g:org.osgi%20and%20a:osgi.annotation) and [`osgi.core`](https://search.maven.org/search?q=g:org.osgi%20and%20a:osgi.core).
+There are dedicated build time artifacts which are not intended for use at runtime. These should be used with maven scope `provided`. For example, [`osgi.core`](https://search.maven.org/search?q=g:org.osgi%20and%20a:osgi.core).
 
-Other than the dedicated build time artifacts, it is generally recommended to use the individual artifacts, as this allows for more precise versioning. In particular, avoid using the `osgi.cmpn` artifact.
+The[`osgi.annotation`](https://search.maven.org/search?q=g:org.osgi%20and%20a:osgi.annotation) artifact can be used with maven scope `compile` to avoid tool warnings for downstream users of API annotated by the OSGi annotations.
+
+Other than the dedicated build time artifacts, it is generally recommended to use the individual artifacts, as this allows for more precise versioning. In particular, avoid using the `osgi.cmpn` artifact. After Release 7, the `osgi.cmpn` artifact is no longer published to Maven Central to encourage the use of the individual artifacts.
