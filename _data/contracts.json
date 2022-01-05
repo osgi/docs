@@ -551,6 +551,38 @@
   "comments" : "Compatible with 1.5",
   "jsr" : "919"
 }, {
+  "name" : "JavaSAAJ",
+  "version" : "1.4",
+  "javaSELevel" : [ "6", "7", "8", "9" ],
+  "javaEELevel" : [ "8" ],
+  "packages" : [ " javax.xml.soap" ],
+  "comments" : "Compatible with 1.1, 1.2, 1.3",
+  "jsr" : "067"
+}, {
+  "name" : "JavaSAAJ",
+  "version" : "1.3",
+  "javaSELevel" : [ "6", "7", "8" ],
+  "javaEELevel" : [ "7" ],
+  "packages" : [ " javax.xml.soap" ],
+  "comments" : "Compatible with 1.1, 1.2",
+  "jsr" : "067"
+}, {
+  "name" : "JavaSAAJ",
+  "version" : "1.2",
+  "javaSELevel" : [ "6", "7" ],
+  "javaEELevel" : [ "6" ],
+  "packages" : [ " javax.xml.soap" ],
+  "comments" : "Compatible with 1.1",
+  "jsr" : "067"
+}, {
+  "name" : "JavaSAAJ",
+  "version" : "1.1",
+  "javaSELevel" : [ "6" ],
+  "javaEELevel" : [ "5" ],
+  "packages" : [ " javax.xml.soap" ],
+  "comments" : "",
+  "jsr" : "067"
+}, {
   "name" : "JavaServlet",
   "version" : "2.5",
   "javaSELevel" : [ ],
