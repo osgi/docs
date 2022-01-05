@@ -204,3 +204,25 @@ pre {
         }
     }
 }
+
+
+
+/**
+ * Contracts Table
+ */
+table.contracts {
+    tr {
+        border-bottom-style: dashed;
+        border-width: 1px;
+        vertical-align: text-top;
+    }
+    tr:nth-child(1) {
+        border-bottom-style: solid;
+        border-width: 1px;
+        white-space: nowrap;
+
+        th {
+            padding: 0 2em 0 0;
+        }
+    }
+}
