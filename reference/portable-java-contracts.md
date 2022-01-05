@@ -52,66 +52,68 @@ A [JSON version](contracts.json) is also available for download.
 
 ### Examples
 
+___Note:___ _`properties` syntax is used, not `MANIFEST`_
+
 A bundle that provides servlet packages unversioned
 
-```
+```properties
 Bundle-SymbolicName: jee.vendor1
 Bundle-Version: 3
-Export-Package: javax.servlet, javax.servlet.annotation,
+Export-Package: javax.servlet, javax.servlet.annotation, \
  javax.servlet.descriptor, javax.servlet.http
-Provide-Capability: osgi.contract; osgi.contract=JavaServlet; version:List<Version>="3,2.5";
+Provide-Capability: osgi.contract; osgi.contract=JavaServlet; version:List<Version>="3,2.5"; \
  uses:="javax.servlet, javax.servlet.annotation, javax.servlet.descriptor, javax.servlet.http"
 ```
 
 A bundle that provides servlet packages using semantic versions
 
-```
+```properties
 Bundle-SymbolicName: jee.vendor2
 Bundle-Version: 3
-Export-Package: javax.servlet; version=2.6, javax.servlet.annotation; version=2.6,
+Export-Package: javax.servlet; version=2.6, javax.servlet.annotation; version=2.6, \
  javax.servlet.descriptor; version=2.6, javax.servlet.http; version=2.6,
-Provide-Capability: osgi.contract; osgi.contract=JavaServlet; version:List<Version>="3,2.5";
+Provide-Capability: osgi.contract; osgi.contract=JavaServlet; version:List<Version>="3,2.5"; \
  uses:="javax.servlet, javax.servlet.annotation, javax.servlet.descriptor, javax.servlet.http"
 ```
 
 A bundle that provides servlet packages using specification marketing versions
 
-```
+```properties
 Bundle-SymbolicName: jee.vendor3
 Bundle-Version: 3
-Export-Package: javax.servlet; version=3, javax.servlet.annotation; version=3,
+Export-Package: javax.servlet; version=3, javax.servlet.annotation; version=3, \
  javax.servlet.descriptor; version=3, javax.servlet.http; version=3,
-Provide-Capability: osgi.contract; osgi.contract=JavaServlet; version:List<Version>="3,2.5";
+Provide-Capability: osgi.contract; osgi.contract=JavaServlet; version:List<Version>="3,2.5"; \
  uses:="javax.servlet, javax.servlet.annotation, javax.servlet.descriptor, javax.servlet.http"
 ```
 
 A bundle that provides JavaServlet 2.5, but not 3
 
-```
+```properties
 Bundle-SymbolicName: jee.vendor4
 Bundle-Version: 2.5
 Export-Package: javax.servlet; version=2.5, javax.servlet.http; version=2.5
-Provide-Capability: osgi.contract; osgi.contract=JavaServlet; version:Version=2.5;
+Provide-Capability: osgi.contract; osgi.contract=JavaServlet; version:Version=2.5; \
  uses:="javax.servlet, javax.servlet.http"
 ```
 
 A bundle that uses JavaServlet 2.5
 
-```
+```properties
 Bundle-SymbolicName: my.company.wab2
 Bundle-Version: 2
 Import-Package: javax.servlet, javax.servlet.http
-Require-Capability: osgi.contract; filter:="(&(osgi.contract=JavaServlet)
+Require-Capability: osgi.contract; filter:="(&(osgi.contract=JavaServlet) \
  (version=2.5))"
 ```
 
 A bundle that uses JavaServlet 3
 
-```
+```properties
 Bundle-SymbolicName: my.company.wab
 Bundle-Version: 2
 Import-Package: javax.servlet, javax.servlet.http
-Require-Capability: osgi.contract; filter:="(&(osgi.contract=JavaServlet)
+Require-Capability: osgi.contract; filter:="(&(osgi.contract=JavaServlet) \
  (version=3.0))"
 ```
 
