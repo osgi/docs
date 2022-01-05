@@ -500,7 +500,7 @@
   "javaSELevel" : [ ],
   "javaEELevel" : [ "6" ],
   "packages" : [ "javax.transaction", "javax.transaction.xa" ],
-  "comments" : "Â ",
+  "comments" : "",
   "jsr" : "907"
 }, {
   "name" : "JavaJTA",
