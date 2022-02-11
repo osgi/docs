@@ -20,6 +20,6 @@ In addition to individual artifacts, some aggregate artifacts are provided which
 
 There are dedicated build time artifacts which are not intended for use at runtime. These should be used with maven scope `provided`. For example, [`osgi.core`](https://search.maven.org/search?q=g:org.osgi%20and%20a:osgi.core).
 
-The[`osgi.annotation`](https://search.maven.org/search?q=g:org.osgi%20and%20a:osgi.annotation) artifact can be used with maven scope `compile` to avoid tool warnings for downstream users of API annotated by the OSGi annotations.
+The[`osgi.annotation`](https://search.maven.org/search?q=g:org.osgi%20and%20a:osgi.annotation) artifact version `8.1.0`, or later, can be used to avoid tool warnings for downstream users of API annotated by the OSGi annotations. Version `8.1.0` was updated to avoid the use of enum types in annotation element values. Version `8.1.0` is generally source compatible with earlier versions and existing Bnd tooling is compatible with the change.
 
 Other than the dedicated build time artifacts, it is generally recommended to use the individual artifacts, as this allows for more precise versioning. In particular, avoid using the `osgi.cmpn` artifact. After Release 7, the `osgi.cmpn` artifact is no longer published to Maven Central to encourage the use of the individual artifacts.
