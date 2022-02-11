@@ -8,7 +8,7 @@ layout: toc-page
 
 ## Release 8
 
-* [OSGi Annotation Release 8 Javadoc](osgi.annotation/8.0.0/)
+* [OSGi Annotation Release 8 Javadoc](osgi.annotation/8.1.0/)
 * [OSGi Core Release 8 Javadoc](osgi.core/8.0.0/)
 * [OSGi Compendium Release 8 Javadoc](osgi.cmpn/8.0.0/)
 
