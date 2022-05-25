@@ -12,11 +12,11 @@ One of the promises of OSGi is the ability for a bundle to know that the runtime
 
 ### Approach
 
-Rather than define package versions for each individual package in all Java platform packages, a task that will be neither fun, nor will produce consensus, this document page defines a set of OSGi contracts for the JSR specifications. These contracts are then versioned according to the JSR version. A client bundle can then import the packages required with no version and express a dependency on the OSGi contract that defines the packages and the exact specification version required. A provider of the contract then expresses every version of the contract they support. Consequently, the client bundle is only tied to the specification version and each provider of the contract is free to continue using their chosen versioning strategy. It is worth restating that this contracts approach is only necessary for the JSR specifications as they do not semantically version their packages. It is neither necessary nor recommended for packages that do follow semantic versioning.
+Rather than define package versions for each individual package in all Java platform packages, a task that will be neither fun, nor will produce consensus, this document page defines a set of OSGi contracts for various Java specifications. These contracts are then versioned according to the Java specification version. A client bundle can then import the packages required with no version and express a dependency on the OSGi contract that defines the packages and the exact specification version required. A provider of the contract then expresses every version of the contract they support. Consequently, the client bundle is only tied to the specification version and each provider of the contract is free to continue using their chosen versioning strategy. It is worth restating that this contracts approach is only necessary for the Java specifications that do not semantically version their packages. It is neither necessary nor recommended for packages that do follow semantic versioning.
 
 ### Java EE Contracts
 
-OSGi contract names are advised to be upper camel case (aka Pascal case) with the first segment or segments corresponding to a namespace to ensure uniqueness. The OSGi alliance reserves the first segment “OSGi”. Similarly this design uses the first segment “Java” to define contracts corresponding to the Java based standards defined by the JCP. The “Javax” prefix is also be reserved, but is not used. What follows is the set of contracts.
+OSGi contract names are advised to be upper camel case (aka Pascal case) with the first segment or segments corresponding to a namespace to ensure uniqueness. The OSGi Specification Project reserves the first segment “OSGi”. Similarly, this design uses the first segment “Java” to define contracts corresponding to the Java based standards defined by the JCP. The “Javax” prefix is also be reserved, but is not used. What follows is the set of contracts.
 
 A [JSON version](contracts.json) is also available for download.
 
@@ -24,9 +24,6 @@ A [JSON version](contracts.json) is also available for download.
     <tr>
         <th>Contract</th>
         <th>Version</th>
-        <th>JSR</th>
-        <th>Java SE Level</th>
-        <th>Java EE Level</th>
         <th>Packages</th>
         <th>Comments</th>
     </tr>
@@ -35,13 +32,6 @@ A [JSON version](contracts.json) is also available for download.
     <tr>
         <td>{{ contract.name }}</td>
         <td>{{ contract.version }}</td>
-        <td>{{ contract.jsr }}</td>
-        <td>
-        {% for level in contract.javaSELevel %}{{ level }}{% if forloop.last == false %}/{% endif %}{% endfor %}
-        </td>
-        <td>
-        {% for level in contract.javaEELevel %}{{ level }}{% if forloop.last == false %}/{% endif %}{% endfor %}
-        </td>
         <td>
         {% for package in contract.packages %}{{ package }}{% if forloop.last == false %},<br/>{% endif %}{% endfor %}
         </td>
