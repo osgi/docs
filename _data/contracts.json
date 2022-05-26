@@ -1,406 +1,1865 @@
-[ {
-  "name" : "JavaActivation",
-  "version" : "1.1",
-  "packages" : [ "javax.activation" ],
-  "comments" : ""
-}, {
-  "name" : "JavaActivation",
-  "version" : "1.1.1",
-  "packages" : [ "javax.activation" ],
-  "comments" : "Compatible with 1.1"
-}, {
-  "name" : "JavaActivation",
-  "version" : "1.2",
-  "packages" : [ "javax.activation" ],
-  "comments" : "Compatible with 1.1"
-}, {
-  "name" : "JavaAnnotation",
-  "version" : "1",
-  "packages" : [ "javax.annotation", "javax.annotation.security" ],
-  "comments" : ""
-}, {
-  "name" : "JavaAnnotation",
-  "version" : "1.1",
-  "packages" : [ "javax.annotation", "javax.annotation.security", "javax.annotation.sql" ],
-  "comments" : "Compatible with 1"
-}, {
-  "name" : "JavaAnnotation",
-  "version" : "1.2",
-  "packages" : [ "javax.annotation", "javax.annotation.security", "javax.annotation.sql" ],
-  "comments" : "Compatible with 1 & 1.1. Subset available in SE 8"
-}, {
-  "name" : "JavaAnnotation",
-  "version" : "1.3",
-  "packages" : [ "javax.annotation", "javax.annotation.security", "javax.annotation.sql" ],
-  "comments" : "Compatible with 1, 1.1, and 1.2. Subset available in SE 8"
-}, {
-  "name" : "JavaBatch",
-  "version" : "1",
-  "packages" : [ "javax.batch.api", "javax.batch.api.chunk", "javax.batch.api.chunk.listener", "javax.batch.api.listener", "javax.batch.api.partition", "javax.batch.operations", "javax.batch.runtime", "javax.batch.runtime.context" ],
-  "comments" : ""
-}, {
-  "name" : "JavaBeanValidation",
-  "version" : "1",
-  "packages" : [ "javax.validation", "javax.validation.bootstrap", "javax.validation.constraints", "javax.validation.groups", "javax.validation.metadata", "javax.validation.spi" ],
-  "comments" : ""
-}, {
-  "name" : "JavaBeanValidation",
-  "version" : "1.1",
-  "packages" : [ "javax.validation", "javax.validation.bootstrap", "javax.validation.constraints", "javax.validation.constraintvalidation", "javax.validation.executable", "javax.validation.groups", "javax.validation.metadata", "javax.validation.spi" ],
-  "comments" : "Compatible with 1"
-}, {
-  "name" : "JavaBeanValidation",
-  "version" : "2.0",
-  "packages" : [ "javax.validation", "javax.validation.bootstrap", "javax.validation.constraints", "javax.validation.constraintvalidation", "javax.validation.executable", "javax.validation.groups", "javax.validation.metadata", "javax.validation.spi", "javax.validation.valueextraction" ],
-  "comments" : ""
-}, {
-  "name" : "JavaCDI",
-  "version" : "1",
-  "packages" : [ "javax.decorator", "javax.enterprise.context", "javax.enterprise.context.spi", "javax.enterprise.event", "javax.enterprise.inject", "javax.enterprise.inject.spi", "javax.enterprise.util" ],
-  "comments" : ""
-}, {
-  "name" : "JavaCDI",
-  "version" : "1.1",
-  "packages" : [ "javax.decorator", "javax.enterprise.context", "javax.enterprise.context.spi", "javax.enterprise.event", "javax.enterprise.inject", "javax.enterprise.inject.spi", "javax.enterprise.util" ],
-  "comments" : "Compatible with 1"
-}, {
-  "name" : "JavaCDI",
-  "version" : "1.2",
-  "packages" : [ "javax.decorator", "javax.enterprise.context", "javax.enterprise.context.spi", "javax.enterprise.event", "javax.enterprise.inject", "javax.enterprise.inject.spi", "javax.enterprise.util" ],
-  "comments" : "Compatible with 1.1"
-}, {
-  "name" : "JavaCDI",
-  "version" : "2.0",
-  "packages" : [ "javax.decorator", "javax.enterprise.context", "javax.enterprise.context.control", "javax.enterprise.context.spi", "javax.enterprise.event", "javax.enterprise.inject", "javax.enterprise.inject.literal", "javax.enterprise.inject.se", "javax.enterprise.inject.spi", "javax.enterprise.inject.spi.configurator", "javax.enterprise.util" ],
-  "comments" : "Compatible with 1.2"
-}, {
-  "name" : "JavaEJB",
-  "version" : "2.1",
-  "packages" : [ "javax.ejb", "javax.ejb.spi" ],
-  "comments" : ""
-}, {
-  "name" : "JavaEJB",
-  "version" : "3",
-  "packages" : [ "javax.ejb", "javax.ejb.spi" ],
-  "comments" : "Compatible with 2.1"
-}, {
-  "name" : "JavaEJB",
-  "version" : "3.1",
-  "packages" : [ "javax.ejb", "javax.ejb.embeddable", "javax.ejb.spi" ],
-  "comments" : "Compatible with 2.1, 3"
-}, {
-  "name" : "JavaEJB",
-  "version" : "3.2",
-  "packages" : [ "javax.ejb", "javax.ejb.embeddable", "javax.ejb.spi" ],
-  "comments" : "Compatible with 2.1, 3, 3.1"
-}, {
-  "name" : "JavaEJBLite",
-  "version" : "3.1",
-  "packages" : [ "javax.ejb", "javax.ejb.embeddable", "javax.ejb.spi" ],
-  "comments" : "EJBlite is a subset of the EJB specification. The package content is logically subset. A provider of JavaEJB is required to also provide this contract. A provider of JavaEJBLite is not required to provide JavaEJB."
-}, {
-  "name" : "JavaEJBLite",
-  "version" : "3.2",
-  "packages" : [ "javax.ejb" ],
-  "comments" : "EJBlite is a subset of the EJB specification. The package content is logically subset. A provider of JavaEJB is required to also provide this contract. A provider of JavaEJBLite is not required to provide JavaEJB. This contract is not backwards compatible with 3.1 because of the removal of javax.ejb.embeddable."
-}, {
-  "name" : "JavaEnterpriseConcurrency",
-  "version" : "1",
-  "packages" : [ "javax.enterprise.concurrent" ],
-  "comments" : ""
-}, {
-  "name" : "JavaEnterpriseConcurrency",
-  "version" : "1.1",
-  "packages" : [ "javax.enterprise.concurrent" ],
-  "comments" : "Compatible with 1"
-}, {
-  "name" : "JavaEL",
-  "version" : "2.1",
-  "packages" : [ "javax.el" ],
-  "comments" : ""
-}, {
-  "name" : "JavaEL",
-  "version" : "2.2",
-  "packages" : [ "javax.el" ],
-  "comments" : "Compatible with 2.1"
-}, {
-  "name" : "JavaEL",
-  "version" : "3",
-  "packages" : [ "javax.el" ],
-  "comments" : "Compatible with 2.2"
-}, {
-  "name" : "JavaInject",
-  "version" : "1",
-  "packages" : [ "javax.inject" ],
-  "comments" : ""
-}, {
-  "name" : "JavaInterceptor",
-  "version" : "1.1",
-  "packages" : [ "javax.interceptor" ],
-  "comments" : "Should this be separate from CDI & EJB???"
-}, {
-  "name" : "JavaInterceptor",
-  "version" : "1.2",
-  "packages" : [ "javax.interceptor" ],
-  "comments" : "Compatible with 1.1 Should this be separate from CDI & EJB???"
-}, {
-  "name" : "JavaJACC",
-  "version" : "1.1",
-  "packages" : [ "javax.security.jacc" ],
-  "comments" : "Â "
-}, {
-  "name" : "JavaJACC",
-  "version" : "1.4",
-  "packages" : [ "javax.security.jacc" ],
-  "comments" : "Compatible with 1.1"
-}, {
-  "name" : "JavaJACC",
-  "version" : "1.5",
-  "packages" : [ "javax.security.jacc" ],
-  "comments" : "Compatible with 1.1 & 1.4"
-}, {
-  "name" : "JavaJASPIC",
-  "version" : "1",
-  "packages" : [ "javax.security.auth.message", "javax.security.auth.message.callback", "javax.security.auth.message.config", "javax.security.auth.message.module" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJASPIC",
-  "version" : "1.1",
-  "packages" : [ "javax.security.auth.message", "javax.security.auth.message.callback", "javax.security.auth.message.config", "javax.security.auth.message.module" ],
-  "comments" : "Compatible with 1"
-}, {
-  "name" : "JavaJAXB",
-  "version" : "2.1",
-  "packages" : [ "javax.xml.bind", "javax.xml.bind.annotation", "javax.xml.bind.annotation.adapters", "javax.xml.bind.attachment", "javax.xml.bind.helpers", "javax.xml.bind.util" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJAXB",
-  "version" : "2.2",
-  "packages" : [ "javax.xml.bind", "javax.xml.bind.annotation", "javax.xml.bind.annotation.adapters", "javax.xml.bind.attachment", "javax.xml.bind.helpers", "javax.xml.bind.util" ],
-  "comments" : "Compatible with 2.1"
-}, {
-  "name" : "JavaJAXR",
-  "version" : "1",
-  "packages" : [ "javax.xml.registry", "javax.xml.registry.infomodel" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJAXRS",
-  "version" : "1.1",
-  "packages" : [ "javax.ws.rs", "javax.ws.rs.core", "javax.ws.rs.ext" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJAXRS",
-  "version" : "2",
-  "packages" : [ "javax.ws.rs", "javax.ws.rs.core", "javax.ws.rs.ext", "javax.ws.rs.client", "javax.ws.rs.container" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJAXWS",
-  "version" : "2.1",
-  "packages" : [ "javax.xml.ws", "javax.xml.ws.handler", "javax.xml.ws.handler.soap", "javax.xml.ws.http", "javax.xml.ws.soap", "javax.xml.ws.spi", "javax.xml.ws.wsaddressing" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJAXWS",
-  "version" : "2.2",
-  "packages" : [ "javax.xml.ws javax.xml.ws.handler", "javax.xml.ws.handler.soap", "javax.xml.ws.http", "javax.xml.ws.soap", "javax.xml.ws.spi", "javax.xml.ws.spi.http", "javax.xml.ws.wsaddressing" ],
-  "comments" : "Compatible with 2.1"
-}, {
-  "name" : "JavaJCA",
-  "version" : "1.5",
-  "packages" : [ "javax.resource", "javax.resource.cci", "javax.resource.spi. javax.resource.spi.endpoint. javax.resource.spi.security", "javax.resource.spi.work" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJCA",
-  "version" : "1.6",
-  "packages" : [ "javax.resource", "javax.resource.cci", "javax.resource.spi", "javax.resource.spi.endpoint", "javax.resource.spi.security", "javax.resource.spi.work" ],
-  "comments" : "Compatible with 1.5"
-}, {
-  "name" : "JavaJCA",
-  "version" : "1.7",
-  "packages" : [ "javax.resource", "javax.resource.cci", "javax.resource.spi", "javax.resource.spi.endpoint", "javax.resource.spi.security", "javax.resource.spi.work" ],
-  "comments" : "Compatible with 1.5 & 1.6"
-}, {
-  "name" : "JavaJMS",
-  "version" : "1.1",
-  "packages" : [ "javax.jms" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJMS",
-  "version" : "2",
-  "packages" : [ "javax.jms" ],
-  "comments" : "Compatible with 1.1"
-}, {
-  "name" : "JavaJPA",
-  "version" : "1",
-  "packages" : [ "javax.persistence", "javax.persistence.spi" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJPA",
-  "version" : "2",
-  "packages" : [ "javax.persistence", "javax.persistence.criteria", "javax.persistence.metamodel", "javax.persistence.spi" ],
-  "comments" : "Compatible with 1"
-}, {
-  "name" : "JavaJPA",
-  "version" : "2.1",
-  "packages" : [ "javax.persistence", "javax.persistence.criteria", "javax.persistence.metamodel", "javax.persistence.spi" ],
-  "comments" : "Compatible with 1, 2"
-}, {
-  "name" : "JavaJPA",
-  "version" : "2.2",
-  "packages" : [ "javax.persistence", "javax.persistence.criteria", "javax.persistence.metamodel", "javax.persistence.spi" ],
-  "comments" : "Compatible with 1, 2.1"
-}, {
-  "name" : "JavaJSF",
-  "version" : "2",
-  "packages" : [ "javax.faces", "javax.faces.application", "javax.faces.bean", "javax.faces.component", "javax.faces.component.behavior", "javax.faces.component.html", "javax.faces.component.visit", "javax.faces.context", "javax.faces.convert", "javax.faces.el", "javax.faces.event", "javax.faces.lifecycle", "javax.faces.model", "javax.faces.render", "javax.faces.validator", "javax.faces.view", "javax.faces.view.facelets", "javax.faces.webapp" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJSF",
-  "version" : "2.2",
-  "packages" : [ "javax.faces", "javax.faces.application", "javax.faces.bean", "javax.faces.component", "javax.faces.component.behavior", "javax.faces.component.html", "javax.faces.component.visit", "javax.faces.context", "javax.faces.convert", "javax.faces.el", "javax.faces.event", "javax.faces.flow", "javax.faces.flow.builder", "javax.faces.lifecycle", "javax.faces.model", "javax.faces.render", "javax.faces.validator", "javax.faces.view", "javax.faces.view.facelets", "javax.faces.webapp" ],
-  "comments" : "Compatible with 2.0"
-}, {
-  "name" : "JavaJSF",
-  "version" : "2.3",
-  "packages" : [ "javax.faces", "javax.faces.annotation", "javax.faces.application", "javax.faces.bean", "javax.faces.component", "javax.faces.component.behavior", "javax.faces.component.html", "javax.faces.component.search", "javax.faces.component.visit", "javax.faces.context", "javax.faces.convert", "javax.faces.el", "javax.faces.event", "javax.faces.flow", "javax.faces.flow.builder", "javax.faces.lifecycle", "javax.faces.model", "javax.faces.push", "javax.faces.render", "javax.faces.validator", "javax.faces.view", "javax.faces.view.facelets", "javax.faces.webapp" ],
-  "comments" : "Compatible with 2.2"
-}, {
-  "name" : "JavaJSONP",
-  "version" : "1",
-  "packages" : [ "javax.json", "javax.json.spi", "javax.json.stream" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJSONP",
-  "version" : "1.1",
-  "packages" : [ "javax.json", "javax.json.spi", "javax.json.stream" ],
-  "comments" : "Compatible with 1"
-}, {
-  "name" : "JavaJSP",
-  "version" : "2",
-  "packages" : [ "javax.servlet.jsp", "javax.servlet.jsp.el", "javax.servlet.jsp.tagext" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJSP",
-  "version" : "2.1",
-  "packages" : [ "javax.servlet.jsp", "javax.servlet.jsp.el", "javax.servlet.jsp.tagext" ],
-  "comments" : "Compatible with 2"
-}, {
-  "name" : "JavaJSP",
-  "version" : "2.2",
-  "packages" : [ "javax.servlet.jsp", "javax.servlet.jsp.el", "javax.servlet.jsp.tagext" ],
-  "comments" : "Compatible with 2, 2.1. I removed javax.servlet.jsp.resources ???"
-}, {
-  "name" : "JavaJSP",
-  "version" : "2.3",
-  "packages" : [ "javax.servlet.jsp", "javax.servlet.jsp.el", "javax.servlet.jsp.tagext" ],
-  "comments" : "Compatible with 2, 2.1, 2.2"
-}, {
-  "name" : "JavaJSTL",
-  "version" : "1",
-  "packages" : [ "javax.servlet.jsp.jstl.core", "javax.servlet.jsp.jstl.fmt", "javax.servlet.jsp.jstl.sql", "javax.servlet.jsp.jstl.tlv" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJSTL",
-  "version" : "1.1",
-  "packages" : [ "javax.servlet.jsp.jstl.core", "javax.servlet.jsp.jstl.fmt", "javax.servlet.jsp.jstl.sql", "javax.servlet.jsp.jstl.tlv" ],
-  "comments" : "Compatible with 1"
-}, {
-  "name" : "JavaJSTL",
-  "version" : "1.2",
-  "packages" : [ "javax.servlet.jsp.jstl.core", "javax.servlet.jsp.jstl.fmt", "javax.servlet.jsp.jstl.sql", "javax.servlet.jsp.jstl.tlv" ],
-  "comments" : "Compatible with 1.1"
-}, {
-  "name" : "JavaJTA",
-  "version" : "1.1",
-  "packages" : [ "javax.transaction", "javax.transaction.xa" ],
-  "comments" : ""
-}, {
-  "name" : "JavaJTA",
-  "version" : "1.2",
-  "packages" : [ "javax.transaction", "javax.transaction.xa" ],
-  "comments" : "Compatible with 1.1"
-}, {
-  "name" : "JavaJTA",
-  "version" : "1.3",
-  "packages" : [ "javax.transaction" ],
-  "comments" : "javax.transaction.xa is now owned by Java SE"
-}, {
-  "name" : "JavaJTAJRE",
-  "version" : "1.1",
-  "packages" : [ "javax.transaction", "javax.transaction.xa" ],
-  "comments" : "This contains a subset of the package javax.transaction. It only contains 3 exceptions. A provider of JavaJTA must also provide this contract. The OSGi system bundle must provide this contract. The creation of JTA 1.2 has so far not affected the SE subset and so there is currently no 1.2 version of this contract."
-}, {
-  "name" : "JavaMail",
-  "version" : "1.4",
-  "packages" : [ "javax.mail", "javax.mail.event", "javax.mail.internet", "javax.mail.search", "javax.mail.util" ],
-  "comments" : ""
-}, {
-  "name" : "JavaMail",
-  "version" : "1.5",
-  "packages" : [ "javax.mail", "javax.mail.event", "javax.mail.internet", "javax.mail.search", "javax.mail.util" ],
-  "comments" : "Compatible with 1.4"
-}, {
-  "name" : "JavaMail",
-  "version" : "1.6",
-  "packages" : [ "javax.mail", "javax.mail.event", "javax.mail.internet", "javax.mail.search", "javax.mail.util" ],
-  "comments" : "Compatible with 1.5"
-}, {
-  "name" : "JavaSAAJ",
-  "version" : "1.4",
-  "packages" : [ " javax.xml.soap" ],
-  "comments" : "Compatible with 1.1, 1.2, 1.3"
-}, {
-  "name" : "JavaSAAJ",
-  "version" : "1.3",
-  "packages" : [ " javax.xml.soap" ],
-  "comments" : "Compatible with 1.1, 1.2"
-}, {
-  "name" : "JavaSAAJ",
-  "version" : "1.2",
-  "packages" : [ " javax.xml.soap" ],
-  "comments" : "Compatible with 1.1"
-}, {
-  "name" : "JavaSAAJ",
-  "version" : "1.1",
-  "packages" : [ " javax.xml.soap" ],
-  "comments" : ""
-}, {
-  "name" : "JavaServlet",
-  "version" : "2.5",
-  "packages" : [ "javax.servlet", "javax.servlet.http" ],
-  "comments" : ""
-}, {
-  "name" : "JavaServlet",
-  "version" : "3",
-  "packages" : [ "javax.servlet", "javax.servlet.annotation", "javax.servlet.descriptor", "javax.servlet.http" ],
-  "comments" : "Compatible with 2.5"
-}, {
-  "name" : "JavaServlet",
-  "version" : "3.1",
-  "packages" : [ "javax.servlet", "javax.servlet.annotation", "javax.servlet.descriptor", "javax.servlet.http" ],
-  "comments" : "Compatible with 2.5, 3"
-}, {
-  "name" : "JavaServlet",
-  "version" : "4.0",
-  "packages" : [ "javax.servlet", "javax.servlet.annotation", "javax.servlet.descriptor", "javax.servlet.http" ],
-  "comments" : "Compatible with 2.5, 3.1"
-}, {
-  "name" : "JavaWebServicesMetadata",
-  "version" : "2.0",
-  "packages" : [ "javax.jws", "javax.jws.soap" ],
-  "comments" : ""
-}, {
-  "name" : "JavaWebServicesMetadata",
-  "version" : "2.1",
-  "packages" : [ "javax.jws", "javax.jws.soap" ],
-  "comments" : ""
-}, {
-  "name" : "JavaWebSockets",
-  "version" : "1",
-  "packages" : [ "javax.websocket", "javax.websocket.server" ],
-  "comments" : ""
-}, {
-  "name" : "JavaWebSockets",
-  "version" : "1.1",
-  "packages" : [ "javax.websocket", "javax.websocket.server" ],
-  "comments" : "Compatible with 1"
-} ]
+[
+  {
+    "name": "JakartaActivation",
+    "version": "2.1",
+    "packages": [
+      "jakarta.activation",
+      "jakarta.activation.spi"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaActivation",
+    "version": "2.0",
+    "packages": [
+      "jakarta.activation"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaActivation",
+    "version": "1.2",
+    "packages": [
+      "javax.activation"
+    ],
+    "comments": "Equivalent to JavaActivation 1.2"
+  },
+  {
+    "name": "JakartaAnnotations",
+    "version": "2.1",
+    "packages": [
+      "jakarta.annotation",
+      "jakarta.annotation.security",
+      "jakarta.annotation.sql"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaAnnotations",
+    "version": "2.0",
+    "packages": [
+      "jakarta.annotation",
+      "jakarta.annotation.security",
+      "jakarta.annotation.sql"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaAnnotations",
+    "version": "1.3",
+    "packages": [
+      "javax.annotation",
+      "javax.annotation.security",
+      "javax.annotation.sql"
+    ],
+    "comments": "Equivalent to JavaAnnotation 1.3"
+  },
+  {
+    "name": "JakartaAuthentication",
+    "version": "3.0",
+    "packages": [
+      "jakarta.security.auth.message",
+      "jakarta.security.auth.message.callback",
+      "jakarta.security.auth.message.config",
+      "jakarta.security.auth.message.module"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaAuthentication",
+    "version": "2.0",
+    "packages": [
+      "jakarta.security.auth.message",
+      "jakarta.security.auth.message.callback",
+      "jakarta.security.auth.message.config",
+      "jakarta.security.auth.message.module"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaAuthentication",
+    "version": "1.1",
+    "packages": [
+      "javax.security.auth.message",
+      "javax.security.auth.message.callback",
+      "javax.security.auth.message.config",
+      "javax.security.auth.message.module"
+    ],
+    "comments": "Equivalent to JavaJASPIC 1.5"
+  },
+  {
+    "name": "JakartaAuthorization",
+    "version": "2.1",
+    "packages": [
+      "jakarta.security.jacc"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaAuthorization",
+    "version": "2.0",
+    "packages": [
+      "jakarta.security.jacc"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaAuthorization",
+    "version": "1.5",
+    "packages": [
+      "javax.security.jacc"
+    ],
+    "comments": "Equivalent to JavaJACC 1.5"
+  },
+  {
+    "name": "JakartaBatch",
+    "version": "2.1",
+    "packages": [
+      "jakarta.batch.api",
+      "jakarta.batch.api.chunk",
+      "jakarta.batch.api.chunk.listener",
+      "jakarta.batch.api.listener",
+      "jakarta.batch.api.partition",
+      "jakarta.batch.operations",
+      "jakarta.batch.runtime",
+      "jakarta.batch.runtime.context"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaBatch",
+    "version": "2.0",
+    "packages": [
+      "jakarta.batch.api",
+      "jakarta.batch.api.chunk",
+      "jakarta.batch.api.chunk.listener",
+      "jakarta.batch.api.listener",
+      "jakarta.batch.api.partition",
+      "jakarta.batch.operations",
+      "jakarta.batch.runtime",
+      "jakarta.batch.runtime.context"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaBatch",
+    "version": "1.0",
+    "packages": [
+      "javax.batch.api",
+      "javax.batch.api.chunk",
+      "javax.batch.api.chunk.listener",
+      "javax.batch.api.listener",
+      "javax.batch.api.partition",
+      "javax.batch.operations",
+      "javax.batch.runtime",
+      "javax.batch.runtime.context"
+    ],
+    "comments": "Equivalent to JavaBatch 1.0"
+  },
+  {
+    "name": "JakartaBeanValidation",
+    "version": "3.0",
+    "packages": [
+      "jakarta.validation",
+      "jakarta.validation.bootstrap",
+      "jakarta.validation.constraints",
+      "jakarta.validation.constraintvalidation",
+      "jakarta.validation.executable",
+      "jakarta.validation.groups",
+      "jakarta.validation.metadata",
+      "jakarta.validation.spi",
+      "jakarta.validation.valueextraction"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaBeanValidation",
+    "version": "2.0",
+    "packages": [
+      "javax.validation",
+      "javax.validation.bootstrap",
+      "javax.validation.constraints",
+      "javax.validation.constraintvalidation",
+      "javax.validation.executable",
+      "javax.validation.groups",
+      "javax.validation.metadata",
+      "javax.validation.spi",
+      "javax.validation.valueextraction"
+    ],
+    "comments": "Equivalent to JavaBeanValidation 2.0"
+  },
+  {
+    "name": "JakartaCDI",
+    "version": "4.0",
+    "packages": [
+      "jakarta.decorator",
+      "jakarta.enterprise.context",
+      "jakarta.enterprise.context.control",
+      "jakarta.enterprise.context.spi",
+      "jakarta.enterprise.event",
+      "jakarta.enterprise.inject",
+      "jakarta.enterprise.inject.build.compatible.spi",
+      "jakarta.enterprise.inject.literal",
+      "jakarta.enterprise.inject.se",
+      "jakarta.enterprise.inject.spi",
+      "jakarta.enterprise.inject.spi.configurator",
+      "jakarta.enterprise.util"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaCDI",
+    "version": "3.0",
+    "packages": [
+      "jakarta.decorator",
+      "jakarta.enterprise.context",
+      "jakarta.enterprise.context.control",
+      "jakarta.enterprise.context.spi",
+      "jakarta.enterprise.event",
+      "jakarta.enterprise.inject",
+      "jakarta.enterprise.inject.literal",
+      "jakarta.enterprise.inject.se",
+      "jakarta.enterprise.inject.spi",
+      "jakarta.enterprise.inject.spi.configurator",
+      "jakarta.enterprise.util"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaCDI",
+    "version": "2.0",
+    "packages": [
+      "javax.decorator",
+      "javax.enterprise.context",
+      "javax.enterprise.context.control",
+      "javax.enterprise.context.spi",
+      "javax.enterprise.event",
+      "javax.enterprise.inject",
+      "javax.enterprise.inject.literal",
+      "javax.enterprise.inject.se",
+      "javax.enterprise.inject.spi",
+      "javax.enterprise.inject.spi.configurator",
+      "javax.enterprise.util"
+    ],
+    "comments": "Equivalent to JavaCDI 2.0"
+  },
+  {
+    "name": "JakartaConcurrency",
+    "version": "3.0",
+    "packages": [
+      "jakarta.enterprise.concurrent",
+      "jakarta.enterprise.concurrent.spi"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaConcurrency",
+    "version": "2.0",
+    "packages": [
+      "jakarta.enterprise.concurrent"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaConcurrency",
+    "version": "1.1",
+    "packages": [
+      "javax.enterprise.concurrent"
+    ],
+    "comments": "Equivalent to JavaEnterpriseConcurrency 1.1"
+  },
+  {
+    "name": "JakartaConnectors",
+    "version": "2.1",
+    "packages": [
+      "jakarta.resource",
+      "jakarta.resource.cci",
+      "jakarta.resource.spi",
+      "jakarta.resource.spi.endpoint",
+      "jakarta.resource.spi.security",
+      "jakarta.resource.spi.work"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaConnectors",
+    "version": "2.0",
+    "packages": [
+      "jakarta.resource",
+      "jakarta.resource.cci",
+      "jakarta.resource.spi",
+      "jakarta.resource.spi.endpoint",
+      "jakarta.resource.spi.security",
+      "jakarta.resource.spi.work"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaConnectors",
+    "version": "1.7",
+    "packages": [
+      "javax.resource",
+      "javax.resource.cci",
+      "javax.resource.spi",
+      "javax.resource.spi.endpoint",
+      "javax.resource.spi.security",
+      "javax.resource.spi.work"
+    ],
+    "comments": "Equivalent to JavaJCA 1.7"
+  },
+  {
+    "name": "JakartaEnterpriseBeans",
+    "version": "4.0",
+    "packages": [
+      "jakarta.ejb",
+      "jakarta.ejb.embeddable",
+      "jakarta.ejb.spi"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaEnterpriseBeans",
+    "version": "3.2",
+    "packages": [
+      "javax.ejb",
+      "javax.ejb.embeddable",
+      "javax.ejb.spi"
+    ],
+    "comments": "Equivalent to JavaEJB 3.2"
+  },
+  {
+    "name": "JakartaExpressionLanguage",
+    "version": "5.0",
+    "packages": [
+      "jakarta.el"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaExpressionLanguage",
+    "version": "4.0",
+    "packages": [
+      "jakarta.el"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaExpressionLanguage",
+    "version": "3.0",
+    "packages": [
+      "javax.el"
+    ],
+    "comments": "Equivalent to JavaEL 3.0"
+  },
+  {
+    "name": "JakartaFaces",
+    "version": "4.0",
+    "packages": [
+      "jakarta.faces",
+      "jakarta.faces.annotation",
+      "jakarta.faces.application",
+      "jakarta.faces.bean",
+      "jakarta.faces.component",
+      "jakarta.faces.component.behavior",
+      "jakarta.faces.component.html",
+      "jakarta.faces.component.search",
+      "jakarta.faces.component.visit",
+      "jakarta.faces.context",
+      "jakarta.faces.convert",
+      "jakarta.faces.el",
+      "jakarta.faces.event",
+      "jakarta.faces.flow",
+      "jakarta.faces.flow.builder",
+      "jakarta.faces.lifecycle",
+      "jakarta.faces.model",
+      "jakarta.faces.push",
+      "jakarta.faces.render",
+      "jakarta.faces.validator",
+      "jakarta.faces.view",
+      "jakarta.faces.view.facelets",
+      "jakarta.faces.webapp"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaFaces",
+    "version": "3.0",
+    "packages": [
+      "jakarta.faces",
+      "jakarta.faces.annotation",
+      "jakarta.faces.application",
+      "jakarta.faces.bean",
+      "jakarta.faces.component",
+      "jakarta.faces.component.behavior",
+      "jakarta.faces.component.html",
+      "jakarta.faces.component.search",
+      "jakarta.faces.component.visit",
+      "jakarta.faces.context",
+      "jakarta.faces.convert",
+      "jakarta.faces.el",
+      "jakarta.faces.event",
+      "jakarta.faces.flow",
+      "jakarta.faces.flow.builder",
+      "jakarta.faces.lifecycle",
+      "jakarta.faces.model",
+      "jakarta.faces.push",
+      "jakarta.faces.render",
+      "jakarta.faces.validator",
+      "jakarta.faces.view",
+      "jakarta.faces.view.facelets",
+      "jakarta.faces.webapp"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaFaces",
+    "version": "2.3",
+    "packages": [
+      "javax.faces",
+      "javax.faces.annotation",
+      "javax.faces.application",
+      "javax.faces.bean",
+      "javax.faces.component",
+      "javax.faces.component.behavior",
+      "javax.faces.component.html",
+      "javax.faces.component.search",
+      "javax.faces.component.visit",
+      "javax.faces.context",
+      "javax.faces.convert",
+      "javax.faces.el",
+      "javax.faces.event",
+      "javax.faces.flow",
+      "javax.faces.flow.builder",
+      "javax.faces.lifecycle",
+      "javax.faces.model",
+      "javax.faces.push",
+      "javax.faces.render",
+      "javax.faces.validator",
+      "javax.faces.view",
+      "javax.faces.view.facelets",
+      "javax.faces.webapp"
+    ],
+    "comments": "Equivalent to JavaJSF 2.3"
+  },
+  {
+    "name": "JakartaInject",
+    "version": "2.0",
+    "packages": [
+      "jakarta.inject"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaInject",
+    "version": "1.0",
+    "packages": [
+      "javax.inject"
+    ],
+    "comments": "Equivalent to JavaInject 1.0"
+  },
+  {
+    "name": "JakartaInterceptors",
+    "version": "2.1",
+    "packages": [
+      "jakarta.interceptor"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaInterceptors",
+    "version": "2.0",
+    "packages": [
+      "jakarta.interceptor"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaInterceptors",
+    "version": "1.2",
+    "packages": [
+      "javax.interceptor"
+    ],
+    "comments": "Equivalent to JavaInterceptor 1.2"
+  },
+  {
+    "name": "JakartaJSONBinding",
+    "version": "3.0",
+    "packages": [
+      "jakarta.json.bind",
+      "jakarta.json.bind.adapter",
+      "jakarta.json.bind.annotation",
+      "jakarta.json.bind.config",
+      "jakarta.json.bind.serializer",
+      "jakarta.json.bind.spi"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaJSONBinding",
+    "version": "2.0",
+    "packages": [
+      "jakarta.json.bind",
+      "jakarta.json.bind.adapter",
+      "jakarta.json.bind.annotation",
+      "jakarta.json.bind.config",
+      "jakarta.json.bind.serializer",
+      "jakarta.json.bind.spi"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaJSONBinding",
+    "version": "1.0",
+    "packages": [
+      "javax.json.bind",
+      "javax.json.bind.adapter",
+      "javax.json.bind.annotation",
+      "javax.json.bind.config",
+      "javax.json.bind.serializer",
+      "javax.json.bind.spi"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaJSONProcessing",
+    "version": "2.1",
+    "packages": [
+      "jakarta.json",
+      "jakarta.json.spi",
+      "jakarta.json.stream"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaJSONProcessing",
+    "version": "2.0",
+    "packages": [
+      "jakarta.json",
+      "jakarta.json.spi",
+      "jakarta.json.stream"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaJSONProcessing",
+    "version": "1.1",
+    "packages": [
+      "javax.json",
+      "javax.json.spi",
+      "javax.json.stream"
+    ],
+    "comments": "Equivalent to JavaJSONP 1.1"
+  },
+  {
+    "name": "JakartaMVC",
+    "version": "2.0",
+    "packages": [
+      "jakarta.mvc",
+      "jakarta.mvc.binding",
+      "jakarta.mvc.engine",
+      "jakarta.mvc.event",
+      "jakarta.mvc.locale",
+      "jakarta.mvc.security"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaMVC",
+    "version": "1.1",
+    "packages": [
+      "javax.mvc",
+      "javax.mvc.binding",
+      "javax.mvc.engine",
+      "javax.mvc.event",
+      "javax.mvc.locale",
+      "javax.mvc.security"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaMail",
+    "version": "2.1",
+    "packages": [
+      "jakarta.mail",
+      "jakarta.mail.event",
+      "jakarta.mail.internet",
+      "jakarta.mail.search",
+      "jakarta.mail.util"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaMail",
+    "version": "2.0",
+    "packages": [
+      "jakarta.mail",
+      "jakarta.mail.event",
+      "jakarta.mail.internet",
+      "jakarta.mail.search",
+      "jakarta.mail.util"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaMail",
+    "version": "1.6",
+    "packages": [
+      "javax.mail",
+      "javax.mail.event",
+      "javax.mail.internet",
+      "javax.mail.search",
+      "javax.mail.util"
+    ],
+    "comments": "Equivalent to JavaMail 1.6"
+  },
+  {
+    "name": "JakartaMessaging",
+    "version": "3.1",
+    "packages": [
+      "jakarta.jms"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaMessaging",
+    "version": "3.0",
+    "packages": [
+      "jakarta.jms"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaMessaging",
+    "version": "2.0",
+    "packages": [
+      "javax.jms"
+    ],
+    "comments": "Equivalent to JavaJMS 2.0"
+  },
+  {
+    "name": "JakartaPersistence",
+    "version": "3.1",
+    "packages": [
+      "jakarta.persistence",
+      "jakarta.persistence.criteria",
+      "jakarta.persistence.metamodel",
+      "jakarta.persistence.spi"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaPersistence",
+    "version": "3.0",
+    "packages": [
+      "jakarta.persistence",
+      "jakarta.persistence.criteria",
+      "jakarta.persistence.metamodel",
+      "jakarta.persistence.spi"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaPersistence",
+    "version": "2.2",
+    "packages": [
+      "javax.persistence",
+      "javax.persistence.criteria",
+      "javax.persistence.metamodel",
+      "javax.persistence.spi"
+    ],
+    "comments": "Equivalent to JavaJPA 2.2"
+  },
+  {
+    "name": "JakartaRESTfulWebServices",
+    "version": "3.1",
+    "packages": [
+      "jakarta.ws.rs",
+      "jakarta.ws.rs.client",
+      "jakarta.ws.rs.container",
+      "jakarta.ws.rs.core",
+      "jakarta.ws.rs.ext",
+      "jakarta.ws.rs.sse"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaRESTfulWebServices",
+    "version": "3.0",
+    "packages": [
+      "jakarta.ws.rs",
+      "jakarta.ws.rs.client",
+      "jakarta.ws.rs.container",
+      "jakarta.ws.rs.core",
+      "jakarta.ws.rs.ext",
+      "jakarta.ws.rs.sse"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaRESTfulWebServices",
+    "version": "2.1",
+    "packages": [
+      "javax.ws.rs",
+      "javax.ws.rs.client",
+      "javax.ws.rs.container",
+      "javax.ws.rs.core",
+      "javax.ws.rs.ext",
+      "javax.ws.rs.sse"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaSOAP",
+    "version": "2.1",
+    "packages": [
+      "jakarta.xml.soap"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaSOAP",
+    "version": "2.0",
+    "packages": [
+      "jakarta.xml.soap"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaSOAP",
+    "version": "1.4",
+    "packages": [
+      "javax.xml.soap"
+    ],
+    "comments": "Equivalent to JavaSAAJ 1.4"
+  },
+  {
+    "name": "JakartaSecurity",
+    "version": "2.0",
+    "packages": [
+      "jakarta.security.enterprise",
+      "jakarta.security.enterprise.authentication.mechanism.http",
+      "jakarta.security.enterprise.credential",
+      "jakarta.security.enterprise.identitystore"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaSecurity",
+    "version": "1.0",
+    "packages": [
+      "javax.security.enterprise",
+      "javax.security.enterprise.authentication.mechanism.http",
+      "javax.security.enterprise.credential",
+      "javax.security.enterprise.identitystore"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaServerPages",
+    "version": "3.1",
+    "packages": [
+      "jakarta.servlet.jsp",
+      "jakarta.servlet.jsp.el",
+      "jakarta.servlet.jsp.tagext"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaServerPages",
+    "version": "3.0",
+    "packages": [
+      "jakarta.servlet.jsp",
+      "jakarta.servlet.jsp.el",
+      "jakarta.servlet.jsp.tagext"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaServerPages",
+    "version": "2.3",
+    "packages": [
+      "javax.servlet.jsp",
+      "javax.servlet.jsp.el",
+      "javax.servlet.jsp.tagext"
+    ],
+    "comments": "Equivalent to JavaJSP 2.3"
+  },
+  {
+    "name": "JakartaServlet",
+    "version": "5.0",
+    "packages": [
+      "jakarta.servlet",
+      "jakarta.servlet.annotation",
+      "jakarta.servlet.descriptor",
+      "jakarta.servlet.http"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaServlet",
+    "version": "4.0",
+    "packages": [
+      "javax.servlet",
+      "javax.servlet.annotation",
+      "javax.servlet.descriptor",
+      "javax.servlet.http"
+    ],
+    "comments": "Equivalent to JavaServlet 4.0"
+  },
+  {
+    "name": "JakartaStandardTagLibrary",
+    "version": "3.0",
+    "packages": [
+      "jakarta.servlet.jsp.jstl.core",
+      "jakarta.servlet.jsp.jstl.fmt",
+      "jakarta.servlet.jsp.jstl.sql",
+      "jakarta.servlet.jsp.jstl.tlv"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaStandardTagLibrary",
+    "version": "2.0",
+    "packages": [
+      "jakarta.servlet.jsp.jstl.core",
+      "jakarta.servlet.jsp.jstl.fmt",
+      "jakarta.servlet.jsp.jstl.sql",
+      "jakarta.servlet.jsp.jstl.tlv"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaStandardTagLibrary",
+    "version": "1.2",
+    "packages": [
+      "javax.servlet.jsp.jstl.core",
+      "javax.servlet.jsp.jstl.fmt",
+      "javax.servlet.jsp.jstl.sql",
+      "javax.servlet.jsp.jstl.tlv"
+    ],
+    "comments": "Equivalent to JavaJSTL 1.2"
+  },
+  {
+    "name": "JakartaTransactions",
+    "version": "2.0",
+    "packages": [
+      "jakarta.transaction"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaTransactions",
+    "version": "1.3",
+    "packages": [
+      "javax.transaction"
+    ],
+    "comments": "Equivalent to JavaJTA 1.3"
+  },
+  {
+    "name": "JakartaWebServicesMetadata",
+    "version": "3.0",
+    "packages": [
+      "jakarta.jws",
+      "jakarta.jws.soap"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaWebServicesMetadata",
+    "version": "2.1",
+    "packages": [
+      "javax.jws",
+      "javax.jws.soap"
+    ],
+    "comments": "Equivalent to JavaWebServicesMetadata 2.1"
+  },
+  {
+    "name": "JakartaWebSocket",
+    "version": "2.0",
+    "packages": [
+      "jakarta.websocket",
+      "jakarta.websocket.server"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaWebSocket",
+    "version": "1.1",
+    "packages": [
+      "javax.websocket",
+      "javax.websocket.server"
+    ],
+    "comments": "Equivalent to JavaWebSockets 1.1"
+  },
+  {
+    "name": "JakartaXMLBinding",
+    "version": "4.0",
+    "packages": [
+      "jakarta.xml.bind",
+      "jakarta.xml.bind.annotation",
+      "jakarta.xml.bind.annotation.adapters",
+      "jakarta.xml.bind.attachment",
+      "jakarta.xml.bind.helpers",
+      "jakarta.xml.bind.util"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaXMLBinding",
+    "version": "3.0",
+    "packages": [
+      "jakarta.xml.bind",
+      "jakarta.xml.bind.annotation",
+      "jakarta.xml.bind.annotation.adapters",
+      "jakarta.xml.bind.attachment",
+      "jakarta.xml.bind.helpers",
+      "jakarta.xml.bind.util"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaXMLBinding",
+    "version": "2.3",
+    "packages": [
+      "javax.xml.bind",
+      "javax.xml.bind.annotation",
+      "javax.xml.bind.annotation.adapters",
+      "javax.xml.bind.attachment",
+      "javax.xml.bind.helpers",
+      "javax.xml.bind.util"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JakartaXMLWebServices",
+    "version": "4.0",
+    "packages": [
+      "jakarta.jws",
+      "jakarta.jws.soap",
+      "jakarta.xml.ws",
+      "jakarta.xml.ws.handler",
+      "jakarta.xml.ws.handler.soap",
+      "jakarta.xml.ws.http",
+      "jakarta.xml.ws.soap",
+      "jakarta.xml.ws.spi",
+      "jakarta.xml.ws.spi.http",
+      "jakarta.xml.ws.wsaddressing"
+    ],
+    "comments": "Includes JakartaWebServicesMetadata 3.0 which is no longer independent"
+  },
+  {
+    "name": "JakartaXMLWebServices",
+    "version": "3.0",
+    "packages": [
+      "jakarta.xml.ws",
+      "jakarta.xml.ws.handler",
+      "jakarta.xml.ws.handler.soap",
+      "jakarta.xml.ws.http",
+      "jakarta.xml.ws.soap",
+      "jakarta.xml.ws.spi",
+      "jakarta.xml.ws.spi.http",
+      "jakarta.xml.ws.wsaddressing"
+    ],
+    "comments": "Packages renamed for Jakarta EE"
+  },
+  {
+    "name": "JakartaXMLWebServices",
+    "version": "2.3",
+    "packages": [
+      "javax.xml.ws",
+      "javax.xml.ws.handler",
+      "javax.xml.ws.handler.soap",
+      "javax.xml.ws.http",
+      "javax.xml.ws.soap",
+      "javax.xml.ws.spi",
+      "javax.xml.ws.spi.http",
+      "javax.xml.ws.wsaddressing"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaActivation",
+    "version": "1.2",
+    "packages": [
+      "javax.activation"
+    ],
+    "comments": "Compatible with 1.1"
+  },
+  {
+    "name": "JavaActivation",
+    "version": "1.1.1",
+    "packages": [
+      "javax.activation"
+    ],
+    "comments": "Compatible with 1.1"
+  },
+  {
+    "name": "JavaActivation",
+    "version": "1.1",
+    "packages": [
+      "javax.activation"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaAnnotation",
+    "version": "1.3",
+    "packages": [
+      "javax.annotation",
+      "javax.annotation.security",
+      "javax.annotation.sql"
+    ],
+    "comments": "Compatible with 1.0, 1.1, 1.2. Subset available in SE 8"
+  },
+  {
+    "name": "JavaAnnotation",
+    "version": "1.2",
+    "packages": [
+      "javax.annotation",
+      "javax.annotation.security",
+      "javax.annotation.sql"
+    ],
+    "comments": "Compatible with 1.0, 1.1. Subset available in SE 8"
+  },
+  {
+    "name": "JavaAnnotation",
+    "version": "1.1",
+    "packages": [
+      "javax.annotation",
+      "javax.annotation.security",
+      "javax.annotation.sql"
+    ],
+    "comments": "Compatible with 1.0"
+  },
+  {
+    "name": "JavaAnnotation",
+    "version": "1.0",
+    "packages": [
+      "javax.annotation",
+      "javax.annotation.security"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaBatch",
+    "version": "1.0",
+    "packages": [
+      "javax.batch.api",
+      "javax.batch.api.chunk",
+      "javax.batch.api.chunk.listener",
+      "javax.batch.api.listener",
+      "javax.batch.api.partition",
+      "javax.batch.operations",
+      "javax.batch.runtime",
+      "javax.batch.runtime.context"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaBeanValidation",
+    "version": "2.0",
+    "packages": [
+      "javax.validation",
+      "javax.validation.bootstrap",
+      "javax.validation.constraints",
+      "javax.validation.constraintvalidation",
+      "javax.validation.executable",
+      "javax.validation.groups",
+      "javax.validation.metadata",
+      "javax.validation.spi",
+      "javax.validation.valueextraction"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaBeanValidation",
+    "version": "1.1",
+    "packages": [
+      "javax.validation",
+      "javax.validation.bootstrap",
+      "javax.validation.constraints",
+      "javax.validation.constraintvalidation",
+      "javax.validation.executable",
+      "javax.validation.groups",
+      "javax.validation.metadata",
+      "javax.validation.spi"
+    ],
+    "comments": "Compatible with 1.0"
+  },
+  {
+    "name": "JavaBeanValidation",
+    "version": "1.0",
+    "packages": [
+      "javax.validation",
+      "javax.validation.bootstrap",
+      "javax.validation.constraints",
+      "javax.validation.groups",
+      "javax.validation.metadata",
+      "javax.validation.spi"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaCDI",
+    "version": "2.0",
+    "packages": [
+      "javax.decorator",
+      "javax.enterprise.context",
+      "javax.enterprise.context.control",
+      "javax.enterprise.context.spi",
+      "javax.enterprise.event",
+      "javax.enterprise.inject",
+      "javax.enterprise.inject.literal",
+      "javax.enterprise.inject.se",
+      "javax.enterprise.inject.spi",
+      "javax.enterprise.inject.spi.configurator",
+      "javax.enterprise.util"
+    ],
+    "comments": "Compatible with 1.2"
+  },
+  {
+    "name": "JavaCDI",
+    "version": "1.2",
+    "packages": [
+      "javax.decorator",
+      "javax.enterprise.context",
+      "javax.enterprise.context.spi",
+      "javax.enterprise.event",
+      "javax.enterprise.inject",
+      "javax.enterprise.inject.spi",
+      "javax.enterprise.util"
+    ],
+    "comments": "Compatible with 1.1"
+  },
+  {
+    "name": "JavaCDI",
+    "version": "1.1",
+    "packages": [
+      "javax.decorator",
+      "javax.enterprise.context",
+      "javax.enterprise.context.spi",
+      "javax.enterprise.event",
+      "javax.enterprise.inject",
+      "javax.enterprise.inject.spi",
+      "javax.enterprise.util"
+    ],
+    "comments": "Compatible with 1.0"
+  },
+  {
+    "name": "JavaCDI",
+    "version": "1.0",
+    "packages": [
+      "javax.decorator",
+      "javax.enterprise.context",
+      "javax.enterprise.context.spi",
+      "javax.enterprise.event",
+      "javax.enterprise.inject",
+      "javax.enterprise.inject.spi",
+      "javax.enterprise.util"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaEJB",
+    "version": "3.2",
+    "packages": [
+      "javax.ejb",
+      "javax.ejb.embeddable",
+      "javax.ejb.spi"
+    ],
+    "comments": "Compatible with 2.1, 3.0, 3.1"
+  },
+  {
+    "name": "JavaEJB",
+    "version": "3.1",
+    "packages": [
+      "javax.ejb",
+      "javax.ejb.embeddable",
+      "javax.ejb.spi"
+    ],
+    "comments": "Compatible with 2.1, 3.0"
+  },
+  {
+    "name": "JavaEJB",
+    "version": "3.0",
+    "packages": [
+      "javax.ejb",
+      "javax.ejb.spi"
+    ],
+    "comments": "Compatible with 2.1"
+  },
+  {
+    "name": "JavaEJB",
+    "version": "2.1",
+    "packages": [
+      "javax.ejb",
+      "javax.ejb.spi"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaEJBLite",
+    "version": "3.2",
+    "packages": [
+      "javax.ejb"
+    ],
+    "comments": "EJBlite is a subset of the EJB specification. The package content is logically subset. A provider of JavaEJB is required to also provide this contract. A provider of JavaEJBLite is not required to provide JavaEJB. This contract is not backwards compatible with 3.1 because of the removal of javax.ejb.embeddable."
+  },
+  {
+    "name": "JavaEJBLite",
+    "version": "3.1",
+    "packages": [
+      "javax.ejb",
+      "javax.ejb.embeddable",
+      "javax.ejb.spi"
+    ],
+    "comments": "EJBlite is a subset of the EJB specification. The package content is logically subset. A provider of JavaEJB is required to also provide this contract. A provider of JavaEJBLite is not required to provide JavaEJB."
+  },
+  {
+    "name": "JavaEL",
+    "version": "3.0",
+    "packages": [
+      "javax.el"
+    ],
+    "comments": "Compatible with 2.2"
+  },
+  {
+    "name": "JavaEL",
+    "version": "2.2",
+    "packages": [
+      "javax.el"
+    ],
+    "comments": "Compatible with 2.1"
+  },
+  {
+    "name": "JavaEL",
+    "version": "2.1",
+    "packages": [
+      "javax.el"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaEnterpriseConcurrency",
+    "version": "1.1",
+    "packages": [
+      "javax.enterprise.concurrent"
+    ],
+    "comments": "Compatible with 1.0"
+  },
+  {
+    "name": "JavaEnterpriseConcurrency",
+    "version": "1.0",
+    "packages": [
+      "javax.enterprise.concurrent"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaInject",
+    "version": "1.0",
+    "packages": [
+      "javax.inject"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaInterceptor",
+    "version": "1.2",
+    "packages": [
+      "javax.interceptor"
+    ],
+    "comments": "Compatible with 1.1"
+  },
+  {
+    "name": "JavaInterceptor",
+    "version": "1.1",
+    "packages": [
+      "javax.interceptor"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJACC",
+    "version": "1.5",
+    "packages": [
+      "javax.security.jacc"
+    ],
+    "comments": "Compatible with 1.1, 1.4"
+  },
+  {
+    "name": "JavaJACC",
+    "version": "1.4",
+    "packages": [
+      "javax.security.jacc"
+    ],
+    "comments": "Compatible with 1.1"
+  },
+  {
+    "name": "JavaJACC",
+    "version": "1.1",
+    "packages": [
+      "javax.security.jacc"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJASPIC",
+    "version": "1.1",
+    "packages": [
+      "javax.security.auth.message",
+      "javax.security.auth.message.callback",
+      "javax.security.auth.message.config",
+      "javax.security.auth.message.module"
+    ],
+    "comments": "Compatible with 1.0"
+  },
+  {
+    "name": "JavaJASPIC",
+    "version": "1.0",
+    "packages": [
+      "javax.security.auth.message",
+      "javax.security.auth.message.callback",
+      "javax.security.auth.message.config",
+      "javax.security.auth.message.module"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJAXB",
+    "version": "2.2",
+    "packages": [
+      "javax.xml.bind",
+      "javax.xml.bind.annotation",
+      "javax.xml.bind.annotation.adapters",
+      "javax.xml.bind.attachment",
+      "javax.xml.bind.helpers",
+      "javax.xml.bind.util"
+    ],
+    "comments": "Compatible with 2.1"
+  },
+  {
+    "name": "JavaJAXB",
+    "version": "2.1",
+    "packages": [
+      "javax.xml.bind",
+      "javax.xml.bind.annotation",
+      "javax.xml.bind.annotation.adapters",
+      "javax.xml.bind.attachment",
+      "javax.xml.bind.helpers",
+      "javax.xml.bind.util"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJAXR",
+    "version": "1.0",
+    "packages": [
+      "javax.xml.registry",
+      "javax.xml.registry.infomodel"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJAXRS",
+    "version": "2.0",
+    "packages": [
+      "javax.ws.rs",
+      "javax.ws.rs.core",
+      "javax.ws.rs.ext",
+      "javax.ws.rs.client",
+      "javax.ws.rs.container"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJAXRS",
+    "version": "1.1",
+    "packages": [
+      "javax.ws.rs",
+      "javax.ws.rs.core",
+      "javax.ws.rs.ext"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJAXWS",
+    "version": "2.2",
+    "packages": [
+      "javax.xml.ws",
+      "javax.xml.ws.handler",
+      "javax.xml.ws.handler.soap",
+      "javax.xml.ws.http",
+      "javax.xml.ws.soap",
+      "javax.xml.ws.spi",
+      "javax.xml.ws.spi.http",
+      "javax.xml.ws.wsaddressing"
+    ],
+    "comments": "Compatible with 2.1"
+  },
+  {
+    "name": "JavaJAXWS",
+    "version": "2.1",
+    "packages": [
+      "javax.xml.ws",
+      "javax.xml.ws.handler",
+      "javax.xml.ws.handler.soap",
+      "javax.xml.ws.http",
+      "javax.xml.ws.soap",
+      "javax.xml.ws.spi",
+      "javax.xml.ws.wsaddressing"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJCA",
+    "version": "1.7",
+    "packages": [
+      "javax.resource",
+      "javax.resource.cci",
+      "javax.resource.spi",
+      "javax.resource.spi.endpoint",
+      "javax.resource.spi.security",
+      "javax.resource.spi.work"
+    ],
+    "comments": "Compatible with 1.5, 1.6"
+  },
+  {
+    "name": "JavaJCA",
+    "version": "1.6",
+    "packages": [
+      "javax.resource",
+      "javax.resource.cci",
+      "javax.resource.spi",
+      "javax.resource.spi.endpoint",
+      "javax.resource.spi.security",
+      "javax.resource.spi.work"
+    ],
+    "comments": "Compatible with 1.5"
+  },
+  {
+    "name": "JavaJCA",
+    "version": "1.5",
+    "packages": [
+      "javax.resource",
+      "javax.resource.cci",
+      "javax.resource.spi. javax.resource.spi.endpoint. javax.resource.spi.security",
+      "javax.resource.spi.work"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJMS",
+    "version": "2.0",
+    "packages": [
+      "javax.jms"
+    ],
+    "comments": "Compatible with 1.1"
+  },
+  {
+    "name": "JavaJMS",
+    "version": "1.1",
+    "packages": [
+      "javax.jms"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJPA",
+    "version": "2.2",
+    "packages": [
+      "javax.persistence",
+      "javax.persistence.criteria",
+      "javax.persistence.metamodel",
+      "javax.persistence.spi"
+    ],
+    "comments": "Compatible with 1.0, 2.1"
+  },
+  {
+    "name": "JavaJPA",
+    "version": "2.1",
+    "packages": [
+      "javax.persistence",
+      "javax.persistence.criteria",
+      "javax.persistence.metamodel",
+      "javax.persistence.spi"
+    ],
+    "comments": "Compatible with 1.0, 2.0"
+  },
+  {
+    "name": "JavaJPA",
+    "version": "2.0",
+    "packages": [
+      "javax.persistence",
+      "javax.persistence.criteria",
+      "javax.persistence.metamodel",
+      "javax.persistence.spi"
+    ],
+    "comments": "Compatible with 1.0"
+  },
+  {
+    "name": "JavaJPA",
+    "version": "1.0",
+    "packages": [
+      "javax.persistence",
+      "javax.persistence.spi"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJSF",
+    "version": "2.3",
+    "packages": [
+      "javax.faces",
+      "javax.faces.annotation",
+      "javax.faces.application",
+      "javax.faces.bean",
+      "javax.faces.component",
+      "javax.faces.component.behavior",
+      "javax.faces.component.html",
+      "javax.faces.component.search",
+      "javax.faces.component.visit",
+      "javax.faces.context",
+      "javax.faces.convert",
+      "javax.faces.el",
+      "javax.faces.event",
+      "javax.faces.flow",
+      "javax.faces.flow.builder",
+      "javax.faces.lifecycle",
+      "javax.faces.model",
+      "javax.faces.push",
+      "javax.faces.render",
+      "javax.faces.validator",
+      "javax.faces.view",
+      "javax.faces.view.facelets",
+      "javax.faces.webapp"
+    ],
+    "comments": "Compatible with 2.2"
+  },
+  {
+    "name": "JavaJSF",
+    "version": "2.2",
+    "packages": [
+      "javax.faces",
+      "javax.faces.application",
+      "javax.faces.bean",
+      "javax.faces.component",
+      "javax.faces.component.behavior",
+      "javax.faces.component.html",
+      "javax.faces.component.visit",
+      "javax.faces.context",
+      "javax.faces.convert",
+      "javax.faces.el",
+      "javax.faces.event",
+      "javax.faces.flow",
+      "javax.faces.flow.builder",
+      "javax.faces.lifecycle",
+      "javax.faces.model",
+      "javax.faces.render",
+      "javax.faces.validator",
+      "javax.faces.view",
+      "javax.faces.view.facelets",
+      "javax.faces.webapp"
+    ],
+    "comments": "Compatible with 2.0"
+  },
+  {
+    "name": "JavaJSF",
+    "version": "2.0",
+    "packages": [
+      "javax.faces",
+      "javax.faces.application",
+      "javax.faces.bean",
+      "javax.faces.component",
+      "javax.faces.component.behavior",
+      "javax.faces.component.html",
+      "javax.faces.component.visit",
+      "javax.faces.context",
+      "javax.faces.convert",
+      "javax.faces.el",
+      "javax.faces.event",
+      "javax.faces.lifecycle",
+      "javax.faces.model",
+      "javax.faces.render",
+      "javax.faces.validator",
+      "javax.faces.view",
+      "javax.faces.view.facelets",
+      "javax.faces.webapp"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJSONP",
+    "version": "1.1",
+    "packages": [
+      "javax.json",
+      "javax.json.spi",
+      "javax.json.stream"
+    ],
+    "comments": "Compatible with 1.0"
+  },
+  {
+    "name": "JavaJSONP",
+    "version": "1.0",
+    "packages": [
+      "javax.json",
+      "javax.json.spi",
+      "javax.json.stream"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJSP",
+    "version": "2.3",
+    "packages": [
+      "javax.servlet.jsp",
+      "javax.servlet.jsp.el",
+      "javax.servlet.jsp.tagext"
+    ],
+    "comments": "Compatible with 2.0, 2.1, 2.2"
+  },
+  {
+    "name": "JavaJSP",
+    "version": "2.2",
+    "packages": [
+      "javax.servlet.jsp",
+      "javax.servlet.jsp.el",
+      "javax.servlet.jsp.tagext"
+    ],
+    "comments": "Compatible with 2.0, 2.1"
+  },
+  {
+    "name": "JavaJSP",
+    "version": "2.1",
+    "packages": [
+      "javax.servlet.jsp",
+      "javax.servlet.jsp.el",
+      "javax.servlet.jsp.tagext"
+    ],
+    "comments": "Compatible with 2.0"
+  },
+  {
+    "name": "JavaJSP",
+    "version": "2.0",
+    "packages": [
+      "javax.servlet.jsp",
+      "javax.servlet.jsp.el",
+      "javax.servlet.jsp.tagext"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJSTL",
+    "version": "1.2",
+    "packages": [
+      "javax.servlet.jsp.jstl.core",
+      "javax.servlet.jsp.jstl.fmt",
+      "javax.servlet.jsp.jstl.sql",
+      "javax.servlet.jsp.jstl.tlv"
+    ],
+    "comments": "Compatible with 1.1"
+  },
+  {
+    "name": "JavaJSTL",
+    "version": "1.1",
+    "packages": [
+      "javax.servlet.jsp.jstl.core",
+      "javax.servlet.jsp.jstl.fmt",
+      "javax.servlet.jsp.jstl.sql",
+      "javax.servlet.jsp.jstl.tlv"
+    ],
+    "comments": "Compatible with 1.0"
+  },
+  {
+    "name": "JavaJSTL",
+    "version": "1.0",
+    "packages": [
+      "javax.servlet.jsp.jstl.core",
+      "javax.servlet.jsp.jstl.fmt",
+      "javax.servlet.jsp.jstl.sql",
+      "javax.servlet.jsp.jstl.tlv"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJTA",
+    "version": "1.3",
+    "packages": [
+      "javax.transaction"
+    ],
+    "comments": "javax.transaction.xa is now owned by Java SE"
+  },
+  {
+    "name": "JavaJTA",
+    "version": "1.2",
+    "packages": [
+      "javax.transaction",
+      "javax.transaction.xa"
+    ],
+    "comments": "Compatible with 1.1"
+  },
+  {
+    "name": "JavaJTA",
+    "version": "1.1",
+    "packages": [
+      "javax.transaction",
+      "javax.transaction.xa"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaJTAJRE",
+    "version": "1.1",
+    "packages": [
+      "javax.transaction",
+      "javax.transaction.xa"
+    ],
+    "comments": "This contains a subset of the package javax.transaction. It only contains 3 exceptions. A provider of JavaJTA must also provide this contract. The OSGi system bundle must provide this contract. The creation of JTA 1.2 has so far not affected the SE subset and so there is currently no 1.2 version of this contract."
+  },
+  {
+    "name": "JavaMail",
+    "version": "1.6",
+    "packages": [
+      "javax.mail",
+      "javax.mail.event",
+      "javax.mail.internet",
+      "javax.mail.search",
+      "javax.mail.util"
+    ],
+    "comments": "Compatible with 1.5"
+  },
+  {
+    "name": "JavaMail",
+    "version": "1.5",
+    "packages": [
+      "javax.mail",
+      "javax.mail.event",
+      "javax.mail.internet",
+      "javax.mail.search",
+      "javax.mail.util"
+    ],
+    "comments": "Compatible with 1.4"
+  },
+  {
+    "name": "JavaMail",
+    "version": "1.4",
+    "packages": [
+      "javax.mail",
+      "javax.mail.event",
+      "javax.mail.internet",
+      "javax.mail.search",
+      "javax.mail.util"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaSAAJ",
+    "version": "1.4",
+    "packages": [
+      " javax.xml.soap"
+    ],
+    "comments": "Compatible with 1.1, 1.2, 1.3"
+  },
+  {
+    "name": "JavaSAAJ",
+    "version": "1.3",
+    "packages": [
+      " javax.xml.soap"
+    ],
+    "comments": "Compatible with 1.1, 1.2"
+  },
+  {
+    "name": "JavaSAAJ",
+    "version": "1.2",
+    "packages": [
+      " javax.xml.soap"
+    ],
+    "comments": "Compatible with 1.1"
+  },
+  {
+    "name": "JavaSAAJ",
+    "version": "1.1",
+    "packages": [
+      " javax.xml.soap"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaServlet",
+    "version": "4.0",
+    "packages": [
+      "javax.servlet",
+      "javax.servlet.annotation",
+      "javax.servlet.descriptor",
+      "javax.servlet.http"
+    ],
+    "comments": "Compatible with 2.5, 3.1"
+  },
+  {
+    "name": "JavaServlet",
+    "version": "3.1",
+    "packages": [
+      "javax.servlet",
+      "javax.servlet.annotation",
+      "javax.servlet.descriptor",
+      "javax.servlet.http"
+    ],
+    "comments": "Compatible with 2.5, 3.0"
+  },
+  {
+    "name": "JavaServlet",
+    "version": "3.0",
+    "packages": [
+      "javax.servlet",
+      "javax.servlet.annotation",
+      "javax.servlet.descriptor",
+      "javax.servlet.http"
+    ],
+    "comments": "Compatible with 2.5"
+  },
+  {
+    "name": "JavaServlet",
+    "version": "2.5",
+    "packages": [
+      "javax.servlet",
+      "javax.servlet.http"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaWebServicesMetadata",
+    "version": "2.1",
+    "packages": [
+      "javax.jws",
+      "javax.jws.soap"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaWebServicesMetadata",
+    "version": "2.0",
+    "packages": [
+      "javax.jws",
+      "javax.jws.soap"
+    ],
+    "comments": ""
+  },
+  {
+    "name": "JavaWebSockets",
+    "version": "1.1",
+    "packages": [
+      "javax.websocket",
+      "javax.websocket.server"
+    ],
+    "comments": "Compatible with 1.0"
+  },
+  {
+    "name": "JavaWebSockets",
+    "version": "1.0",
+    "packages": [
+      "javax.websocket",
+      "javax.websocket.server"
+    ],
+    "comments": ""
+  }
+]
