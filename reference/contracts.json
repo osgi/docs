@@ -5,9 +5,6 @@ layout: json
 [ {% for contract in site.data.contracts %}{
   "name" : "{{ contract.name }}",
   "version" : "{{ contract.version }}",
-  "javaSELevel" : {{ contract.javaSELevel | jsonify }},
-  "javaEELevel" : {{ contract.javaEELevel | jsonify }},
   "packages" : {{ contract.packages | jsonify }},
-  "comments" : "{{ contract.comments }}",
-  "jsr" : "{{ contract.jsr }}"
+  "comments" : "{{ contract.comments }}"
 }{% if forloop.last == false %},{% endif %} {% endfor %} ]

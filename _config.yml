@@ -32,5 +32,6 @@ exclude:
   - 'CONTRIBUTING.md'
   - 'LICENSE'
   - '/build.sh'
-  - '*/build.gradle'
   - '/vendor'
+  - '/.bundle'
+  - '/.idea'
