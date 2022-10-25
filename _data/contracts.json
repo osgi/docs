@@ -17,14 +17,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaActivation",
-    "version": "1.2",
-    "packages": [
-      "javax.activation"
-    ],
-    "comments": "Equivalent to JavaActivation 1.2"
-  },
-  {
     "name": "JakartaAnnotations",
     "version": "2.1",
     "packages": [
@@ -43,16 +35,6 @@
       "jakarta.annotation.sql"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaAnnotations",
-    "version": "1.3",
-    "packages": [
-      "javax.annotation",
-      "javax.annotation.security",
-      "javax.annotation.sql"
-    ],
-    "comments": "Equivalent to JavaAnnotation 1.3"
   },
   {
     "name": "JakartaAuthentication",
@@ -77,17 +59,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaAuthentication",
-    "version": "1.1",
-    "packages": [
-      "javax.security.auth.message",
-      "javax.security.auth.message.callback",
-      "javax.security.auth.message.config",
-      "javax.security.auth.message.module"
-    ],
-    "comments": "Equivalent to JavaJASPIC 1.5"
-  },
-  {
     "name": "JakartaAuthorization",
     "version": "2.1",
     "packages": [
@@ -102,14 +73,6 @@
       "jakarta.security.jacc"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaAuthorization",
-    "version": "1.5",
-    "packages": [
-      "javax.security.jacc"
-    ],
-    "comments": "Equivalent to JavaJACC 1.5"
   },
   {
     "name": "JakartaBatch",
@@ -140,21 +103,6 @@
       "jakarta.batch.runtime.context"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaBatch",
-    "version": "1.0",
-    "packages": [
-      "javax.batch.api",
-      "javax.batch.api.chunk",
-      "javax.batch.api.chunk.listener",
-      "javax.batch.api.listener",
-      "javax.batch.api.partition",
-      "javax.batch.operations",
-      "javax.batch.runtime",
-      "javax.batch.runtime.context"
-    ],
-    "comments": "Equivalent to JavaBatch 1.0"
   },
   {
     "name": "JakartaBeanValidation",
@@ -171,22 +119,6 @@
       "jakarta.validation.valueextraction"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaBeanValidation",
-    "version": "2.0",
-    "packages": [
-      "javax.validation",
-      "javax.validation.bootstrap",
-      "javax.validation.constraints",
-      "javax.validation.constraintvalidation",
-      "javax.validation.executable",
-      "javax.validation.groups",
-      "javax.validation.metadata",
-      "javax.validation.spi",
-      "javax.validation.valueextraction"
-    ],
-    "comments": "Equivalent to JavaBeanValidation 2.0"
   },
   {
     "name": "JakartaCDI",
@@ -226,24 +158,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaCDI",
-    "version": "2.0",
-    "packages": [
-      "javax.decorator",
-      "javax.enterprise.context",
-      "javax.enterprise.context.control",
-      "javax.enterprise.context.spi",
-      "javax.enterprise.event",
-      "javax.enterprise.inject",
-      "javax.enterprise.inject.literal",
-      "javax.enterprise.inject.se",
-      "javax.enterprise.inject.spi",
-      "javax.enterprise.inject.spi.configurator",
-      "javax.enterprise.util"
-    ],
-    "comments": "Equivalent to JavaCDI 2.0"
-  },
-  {
     "name": "JakartaConcurrency",
     "version": "3.0",
     "packages": [
@@ -261,14 +175,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaConcurrency",
-    "version": "1.1",
-    "packages": [
-      "javax.enterprise.concurrent"
-    ],
-    "comments": "Equivalent to JavaEnterpriseConcurrency 1.1"
-  },
-  {
     "name": "JakartaConnectors",
     "version": "2.1",
     "packages": [
@@ -295,19 +201,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaConnectors",
-    "version": "1.7",
-    "packages": [
-      "javax.resource",
-      "javax.resource.cci",
-      "javax.resource.spi",
-      "javax.resource.spi.endpoint",
-      "javax.resource.spi.security",
-      "javax.resource.spi.work"
-    ],
-    "comments": "Equivalent to JavaJCA 1.7"
-  },
-  {
     "name": "JakartaEnterpriseBeans",
     "version": "4.0",
     "packages": [
@@ -316,16 +209,6 @@
       "jakarta.ejb.spi"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaEnterpriseBeans",
-    "version": "3.2",
-    "packages": [
-      "javax.ejb",
-      "javax.ejb.embeddable",
-      "javax.ejb.spi"
-    ],
-    "comments": "Equivalent to JavaEJB 3.2"
   },
   {
     "name": "JakartaExpressionLanguage",
@@ -344,14 +227,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaExpressionLanguage",
-    "version": "3.0",
-    "packages": [
-      "javax.el"
-    ],
-    "comments": "Equivalent to JavaEL 3.0"
-  },
-  {
     "name": "JakartaFaces",
     "version": "4.0",
     "packages": [
@@ -412,50 +287,12 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaFaces",
-    "version": "2.3",
-    "packages": [
-      "javax.faces",
-      "javax.faces.annotation",
-      "javax.faces.application",
-      "javax.faces.bean",
-      "javax.faces.component",
-      "javax.faces.component.behavior",
-      "javax.faces.component.html",
-      "javax.faces.component.search",
-      "javax.faces.component.visit",
-      "javax.faces.context",
-      "javax.faces.convert",
-      "javax.faces.el",
-      "javax.faces.event",
-      "javax.faces.flow",
-      "javax.faces.flow.builder",
-      "javax.faces.lifecycle",
-      "javax.faces.model",
-      "javax.faces.push",
-      "javax.faces.render",
-      "javax.faces.validator",
-      "javax.faces.view",
-      "javax.faces.view.facelets",
-      "javax.faces.webapp"
-    ],
-    "comments": "Equivalent to JavaJSF 2.3"
-  },
-  {
     "name": "JakartaInject",
     "version": "2.0",
     "packages": [
       "jakarta.inject"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaInject",
-    "version": "1.0",
-    "packages": [
-      "javax.inject"
-    ],
-    "comments": "Equivalent to JavaInject 1.0"
   },
   {
     "name": "JakartaInterceptors",
@@ -472,14 +309,6 @@
       "jakarta.interceptor"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaInterceptors",
-    "version": "1.2",
-    "packages": [
-      "javax.interceptor"
-    ],
-    "comments": "Equivalent to JavaInterceptor 1.2"
   },
   {
     "name": "JakartaJSONBinding",
@@ -508,19 +337,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaJSONBinding",
-    "version": "1.0",
-    "packages": [
-      "javax.json.bind",
-      "javax.json.bind.adapter",
-      "javax.json.bind.annotation",
-      "javax.json.bind.config",
-      "javax.json.bind.serializer",
-      "javax.json.bind.spi"
-    ],
-    "comments": ""
-  },
-  {
     "name": "JakartaJSONProcessing",
     "version": "2.1",
     "packages": [
@@ -539,16 +355,6 @@
       "jakarta.json.stream"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaJSONProcessing",
-    "version": "1.1",
-    "packages": [
-      "javax.json",
-      "javax.json.spi",
-      "javax.json.stream"
-    ],
-    "comments": "Equivalent to JavaJSONP 1.1"
   },
   {
     "name": "JakartaMVC",
@@ -564,19 +370,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaMVC",
-    "version": "1.1",
-    "packages": [
-      "javax.mvc",
-      "javax.mvc.binding",
-      "javax.mvc.engine",
-      "javax.mvc.event",
-      "javax.mvc.locale",
-      "javax.mvc.security"
-    ],
-    "comments": ""
-  },
-  {
     "name": "JakartaMail",
     "version": "2.1",
     "packages": [
@@ -601,18 +394,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaMail",
-    "version": "1.6",
-    "packages": [
-      "javax.mail",
-      "javax.mail.event",
-      "javax.mail.internet",
-      "javax.mail.search",
-      "javax.mail.util"
-    ],
-    "comments": "Equivalent to JavaMail 1.6"
-  },
-  {
     "name": "JakartaMessaging",
     "version": "3.1",
     "packages": [
@@ -627,14 +408,6 @@
       "jakarta.jms"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaMessaging",
-    "version": "2.0",
-    "packages": [
-      "javax.jms"
-    ],
-    "comments": "Equivalent to JavaJMS 2.0"
   },
   {
     "name": "JakartaPersistence",
@@ -657,17 +430,6 @@
       "jakarta.persistence.spi"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaPersistence",
-    "version": "2.2",
-    "packages": [
-      "javax.persistence",
-      "javax.persistence.criteria",
-      "javax.persistence.metamodel",
-      "javax.persistence.spi"
-    ],
-    "comments": "Equivalent to JavaJPA 2.2"
   },
   {
     "name": "JakartaRESTfulWebServices",
@@ -696,19 +458,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaRESTfulWebServices",
-    "version": "2.1",
-    "packages": [
-      "javax.ws.rs",
-      "javax.ws.rs.client",
-      "javax.ws.rs.container",
-      "javax.ws.rs.core",
-      "javax.ws.rs.ext",
-      "javax.ws.rs.sse"
-    ],
-    "comments": ""
-  },
-  {
     "name": "JakartaSOAP",
     "version": "2.1",
     "packages": [
@@ -723,14 +472,6 @@
       "jakarta.xml.soap"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaSOAP",
-    "version": "1.4",
-    "packages": [
-      "javax.xml.soap"
-    ],
-    "comments": "Equivalent to JavaSAAJ 1.4"
   },
   {
     "name": "JakartaSecurity",
@@ -744,17 +485,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaSecurity",
-    "version": "1.0",
-    "packages": [
-      "javax.security.enterprise",
-      "javax.security.enterprise.authentication.mechanism.http",
-      "javax.security.enterprise.credential",
-      "javax.security.enterprise.identitystore"
-    ],
-    "comments": ""
-  },
-  {
     "name": "JakartaServerPages",
     "version": "3.1",
     "packages": [
@@ -775,16 +505,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaServerPages",
-    "version": "2.3",
-    "packages": [
-      "javax.servlet.jsp",
-      "javax.servlet.jsp.el",
-      "javax.servlet.jsp.tagext"
-    ],
-    "comments": "Equivalent to JavaJSP 2.3"
-  },
-  {
     "name": "JakartaServlet",
     "version": "5.0",
     "packages": [
@@ -796,17 +516,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaServlet",
-    "version": "4.0",
-    "packages": [
-      "javax.servlet",
-      "javax.servlet.annotation",
-      "javax.servlet.descriptor",
-      "javax.servlet.http"
-    ],
-    "comments": "Equivalent to JavaServlet 4.0"
-  },
-  {
     "name": "JakartaStandardTagLibrary",
     "version": "3.0",
     "packages": [
@@ -829,31 +538,12 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaStandardTagLibrary",
-    "version": "1.2",
-    "packages": [
-      "javax.servlet.jsp.jstl.core",
-      "javax.servlet.jsp.jstl.fmt",
-      "javax.servlet.jsp.jstl.sql",
-      "javax.servlet.jsp.jstl.tlv"
-    ],
-    "comments": "Equivalent to JavaJSTL 1.2"
-  },
-  {
     "name": "JakartaTransactions",
     "version": "2.0",
     "packages": [
       "jakarta.transaction"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaTransactions",
-    "version": "1.3",
-    "packages": [
-      "javax.transaction"
-    ],
-    "comments": "Equivalent to JavaJTA 1.3"
   },
   {
     "name": "JakartaWebServicesMetadata",
@@ -865,15 +555,6 @@
     "comments": "Packages renamed for Jakarta EE"
   },
   {
-    "name": "JakartaWebServicesMetadata",
-    "version": "2.1",
-    "packages": [
-      "javax.jws",
-      "javax.jws.soap"
-    ],
-    "comments": "Equivalent to JavaWebServicesMetadata 2.1"
-  },
-  {
     "name": "JakartaWebSocket",
     "version": "2.0",
     "packages": [
@@ -881,15 +562,6 @@
       "jakarta.websocket.server"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaWebSocket",
-    "version": "1.1",
-    "packages": [
-      "javax.websocket",
-      "javax.websocket.server"
-    ],
-    "comments": "Equivalent to JavaWebSockets 1.1"
   },
   {
     "name": "JakartaXMLBinding",
@@ -916,19 +588,6 @@
       "jakarta.xml.bind.util"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaXMLBinding",
-    "version": "2.3",
-    "packages": [
-      "javax.xml.bind",
-      "javax.xml.bind.annotation",
-      "javax.xml.bind.annotation.adapters",
-      "javax.xml.bind.attachment",
-      "javax.xml.bind.helpers",
-      "javax.xml.bind.util"
-    ],
-    "comments": ""
   },
   {
     "name": "JakartaXMLWebServices",
@@ -961,21 +620,6 @@
       "jakarta.xml.ws.wsaddressing"
     ],
     "comments": "Packages renamed for Jakarta EE"
-  },
-  {
-    "name": "JakartaXMLWebServices",
-    "version": "2.3",
-    "packages": [
-      "javax.xml.ws",
-      "javax.xml.ws.handler",
-      "javax.xml.ws.handler.soap",
-      "javax.xml.ws.http",
-      "javax.xml.ws.soap",
-      "javax.xml.ws.spi",
-      "javax.xml.ws.spi.http",
-      "javax.xml.ws.wsaddressing"
-    ],
-    "comments": ""
   },
   {
     "name": "JavaActivation",
