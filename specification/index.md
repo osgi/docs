@@ -6,10 +6,10 @@ layout: toc-page
 
 ![Image of OSGi Logo](/img/OSGi_WG.png)
 
-## Release 9
+## Development Draft
 
-* [OSGi Core Release 9 Draft Specification](https://osgi.github.io/osgi/core/)
-* [OSGi Compendium Release 9 Draft Specification](https://osgi.github.io/osgi/cmpn/)
+* [OSGi Core Draft Specification](https://osgi.github.io/osgi/core/)
+* [OSGi Compendium Draft Specification](https://osgi.github.io/osgi/cmpn/)
 
 ## Release 8
 
