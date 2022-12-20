@@ -15,6 +15,7 @@ layout: toc-page
 
 * [OSGi Core Release 8 Specification](osgi.core/8.0.0/) [(pdf)](/download/r8/osgi.core-8.0.0.pdf)
 * [OSGi Compendium Release 8 Specification](osgi.cmpn/8.0.0/) [(pdf)](/download/r8/osgi.cmpn-8.0.0.pdf)
+* [OSGi Compendium Release 8.1 Specification](osgi.cmpn/8.1.0/) [(pdf)](/download/r8/osgi.cmpn-8.1.0.pdf)
 
 ## Release 7
 
